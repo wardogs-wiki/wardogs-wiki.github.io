@@ -1,0 +1,69 @@
+{
+  "readyForLaunch": true,
+  "siteName": "WARDOGS Wiki",
+  "shortName": "WARDOGS",
+  "description": "WARDOGS Wiki with map tools, mortar calculator, best settings, helicopter controls, servers, loadouts, leveling guides and error fixes.",
+  "language": "en",
+  "locale": "en_US",
+  "authorName": "Editorial Team",
+  "theme": {
+    "preset": "gunmetal-blue",
+    "overrides": {
+      "background": "212 54% 7%",
+      "foreground": "212 30% 96%",
+      "card": "211 38% 11%",
+      "card-foreground": "212 30% 96%",
+      "primary": "217 91% 60%",
+      "primary-foreground": "0 0% 8%",
+      "secondary": "212 50% 17%",
+      "muted": "212 48% 16%",
+      "muted-foreground": "212 20% 72%",
+      "border": "210 32% 22%",
+      "radius": ".75rem",
+      "card-shadow": "0 22px 70px rgba(59, 130, 246, .14)",
+      "hero-gradient": "radial-gradient(circle at 78% 14%, hsl(217 91% 60% / .18), transparent 36%)",
+      "background-pattern": "radial-gradient(hsl(217 91% 60% / .045) 1px, transparent 1px)",
+      "font-sans": "var(--font-barlow), \"Arial Narrow\", \"Helvetica Neue\", Arial, ui-sans-serif, system-ui, sans-serif"
+    },
+    "skin": "portal",
+    "headerStyle": "glass",
+    "componentStyle": "rounded"
+  },
+  "hosting": {
+    "siteUrl": "https://wardogs-wiki.github.io",
+    "basePath": "",
+    "customDomain": null
+  },
+  "contact": {
+    "email": null,
+    "url": "https://github.com/wardogs-wiki/wardogs-wiki.github.io/issues"
+  },
+  "repositoryUrl": "https://github.com/wardogs-wiki/wardogs-wiki.github.io",
+  "allowedExternalDomains": [
+    "store.steampowered.com",
+    "github.com"
+  ],
+  "assets": {
+    "logo": "/images/wardogs-logo.webp",
+    "cover": "/images/wardogs-steam-header.jpg",
+    "openGraph": "/images/wardogs-og.svg",
+    "favicon": "/images/wardogs-logo.webp"
+  },
+  "game": {
+    "name": "WARDOGS",
+    "platform": "Steam",
+    "developer": "BULKHEAD",
+    "genre": "Tactical All-Out Warfare FPS",
+    "officialUrl": "https://store.steampowered.com/app/1867240/WARDOGS/"
+  },
+  "seo": {
+    "titleTemplate": "%s | WARDOGS Wiki",
+    "defaultKeywords": [
+      "WARDOGS wiki",
+      "WARDOGS",
+      "WARDOGS guide",
+      "WARDOGS map",
+      "WARDOGS mortar calculator"
+    ]
+  }
+}

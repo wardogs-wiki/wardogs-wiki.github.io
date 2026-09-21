@@ -1,0 +1,297 @@
+{
+  "enabled": true,
+  "slug": "",
+  "pageType": "home",
+  "title": "WARDOGS Wiki – Maps, Mortar Calculator, Loadouts & Guides",
+  "description": "WARDOGS wiki with map tools, mortar calculator, best settings, helicopter controls, servers, loadouts, leveling, XP and error fixes for WARDOGS players.",
+  "keywords": [
+    "WARDOGS wiki",
+    "WARDOGS game",
+    "WARDOGS guide",
+    "WARDOGS map",
+    "WARDOGS mortar calculator",
+    "WARDOGS settings",
+    "WARDOGS loadouts"
+  ],
+  "primaryKeyword": "WARDOGS wiki",
+  "secondaryKeywords": [
+    "WARDOGS game",
+    "WARDOGS guide",
+    "WARDOGS map",
+    "WARDOGS mortar calculator",
+    "WARDOGS settings",
+    "WARDOGS loadouts"
+  ],
+  "searchIntent": "Players searching for a WARDOGS wiki hub with tools and practical guides.",
+  "priority": "P0",
+  "navVisible": true,
+  "wordCountTarget": 1900,
+  "sourceNotes": [
+    "Steam store app 1867240",
+    "Official Early Access description"
+  ],
+  "factsStatus": "verified",
+  "hero": {
+    "eyebrow": "Independent WARDOGS Wiki",
+    "heading": "WARDOGS Wiki – Maps, Tools, Loadouts & Player Guides",
+    "lead": "Practical WARDOGS wiki for maps, mortar calculator, settings, helicopters, servers, loadouts, leveling and error fixes.",
+    "supportingText": "Jump into the tools first, then use the guides to improve FPS, flight control, progression and match stability.",
+    "primaryLink": {
+      "label": "Open WARDOGS Map",
+      "slug": "wardogs-map"
+    },
+    "secondaryInternalLink": {
+      "label": "Use Mortar Calculator",
+      "slug": "wardogs-mortar-calculator"
+    },
+    "secondaryLink": {
+      "label": "Official Steam page",
+      "url": "https://store.steampowered.com/app/1867240/WARDOGS/"
+    }
+  },
+  "sections": [
+    {
+      "id": "wardogs-tools",
+      "heading": "WARDOGS Tools",
+      "intro": "This WARDOGS wiki puts practical player tools and guides ahead of long articles so you can solve match problems in seconds. Use the map when you need Control Zone context, then open the mortar calculator when you need coordinate distance and bearing without leaving the fight.",
+      "paragraphs": [
+        "Most players land here looking for a WARDOGS wiki that does more than summarize Steam copy. The map guide and mortar calculator below are the fastest way to turn a chaotic 100-player match into a clearer plan for your squad.",
+        "Bookmark both tools. Between rounds, check the map for zone geography and approach routes. Mid-fight, keep the mortar calculator ready so artillery support stays accurate when teammates call distances under pressure."
+      ],
+      "subsections": [
+        {
+          "heading": "WARDOGS Map Tool",
+          "paragraphs": [
+            "The WARDOGS map guide helps you read large industrial mountain terrain, orient toward the active Control Zone, and plan how your team should approach, hold, or rotate. In a game where zone location changes and no match plays out the same way, a clear map view reduces wasted travel and late arrivals.",
+            "Use the map before you spend cash on vehicles or long-range kits. Knowing choke points, elevation, and likely enemy approach corridors makes loadout choices and logistics runs more deliberate. Squads that sync on map landmarks call targets faster and waste fewer lives crossing open ground."
+          ]
+        },
+        {
+          "heading": "WARDOGS Mortar Calculator",
+          "paragraphs": [
+            "The WARDOGS mortar calculator measures coordinate distance and bearing between two points so support players can make faster calls. Artillery only helps if shells land where teammates need them; this tool is built for that exact moment.",
+            "Keep it open when your role is indirect fire or when you are feeding range calls to a mortar teammate. Pair calculator output with map landmarks so your team shares the same reference points instead of conflicting callouts."
+          ]
+        }
+      ],
+      "links": [
+        {
+          "label": "Open the WARDOGS map",
+          "slug": "wardogs-map",
+          "description": "Map guide for Control Zone orientation, routes, and match planning."
+        },
+        {
+          "label": "Open the mortar calculator",
+          "slug": "wardogs-mortar-calculator",
+          "description": "Tools: distance and azimuth help for mortar fire."
+        }
+      ]
+    },
+    {
+      "id": "wardogs-gameplay-guides",
+      "heading": "WARDOGS Gameplay Guides",
+      "intro": "After the tools, this WARDOGS wiki focuses on the decisions that decide matches: what you buy with your starting cash, how you earn XP and progress, and how you stay useful in a helicopter instead of becoming a free kill.",
+      "paragraphs": [
+        "WARDOGS rewards teamwork with cash for actions such as revives, transport, and objective control. Guides here translate that loop into practical habits rather than empty theory.",
+        "Start with loadouts if you keep dying broke, use leveling help if progression feels opaque, and open helicopter controls when flight is the weak link in your squad logistics."
+      ],
+      "subsections": [
+        {
+          "heading": "Best Loadouts",
+          "paragraphs": [
+            "Every player starts with $10,000 and buys a custom loadout each life from weapons, gear, utility, and vehicles. Best-loadout guidance helps you spend that cash for the role you actually play—frontline Control Zone pressure, logistics, long-range overwatch, or support—instead of dumping money into kits that do not fit the round.",
+            "Cash persists between matches, so disciplined spending compounds. The loadouts guide focuses on role-first buys, when to save for vehicles, and how to avoid over-investing before you understand the current zone fight."
+          ]
+        },
+        {
+          "heading": "Leveling & XP",
+          "paragraphs": [
+            "WARDOGS uses cash and XP-based progression where combat, support, and logistics actions all feed rewards. The leveling guide explains how to progress without tunnel-visioning only on kills, which matters in a mode that scores Control Zone presence.",
+            "If you are new, treat XP as feedback on useful team actions: holding the zone, moving friendlies, reviving, and supplying. The guide keeps progression advice practical for Early Access, where systems can still evolve."
+          ]
+        },
+        {
+          "heading": "Helicopter Controls",
+          "paragraphs": [
+            "Helicopters are a high-value logistics tool for ferrying teammates and supplies into the fight. The helicopter controls guide covers the practical input and flight habits that keep you useful under fire instead of crashing on approach.",
+            "Read it before you buy air assets with match cash. A pilot who can land near the Control Zone safely multiplies squad tempo; a pilot who cannot costs lives and bankroll in the same mistake."
+          ]
+        }
+      ],
+      "links": [
+        {
+          "label": "Best WARDOGS loadouts",
+          "slug": "wardogs-best-loadouts",
+          "description": "Role-focused spending plans for your $10k starting cash and persistent bankroll."
+        },
+        {
+          "label": "Leveling and XP guide",
+          "slug": "wardogs-leveling-guide",
+          "description": "Progression habits tied to combat, support, and objective play."
+        },
+        {
+          "label": "Helicopter controls",
+          "slug": "wardogs-helicopter-controls",
+          "description": "Flight inputs and practical tips for transport and logistics runs."
+        }
+      ]
+    },
+    {
+      "id": "wardogs-pc-and-server-help",
+      "heading": "WARDOGS PC & Server Help",
+      "intro": "A useful WARDOGS wiki also covers the unglamorous problems that stop matches cold: weak FPS, confusing server browsing, and error codes that boot you before you reach the Control Zone.",
+      "paragraphs": [
+        "Tune settings first if the game feels heavy on your PC. Check servers when queues, regions, or connection quality are the bottleneck. Use the error-code page when a specific message blocks launch or mid-match stability.",
+        "These pages stay practical and skip fake live player counts or patch rumors. Fix what you can control: graphics, network choices, and known error paths."
+      ],
+      "subsections": [
+        {
+          "heading": "Best Settings",
+          "paragraphs": [
+            "The best-settings guide targets stable FPS and readable fights on large, destructible maps. WARDOGS is a 100-player tactical FPS with vehicles and destruction, so clarity and consistency usually beat maxed cosmetics.",
+            "Use it to balance visuals against performance, especially if you notice stutter when zones get crowded or when buildings start coming down. Small setting changes often matter more than buying new hardware right away."
+          ]
+        },
+        {
+          "heading": "Servers & Server Status",
+          "paragraphs": [
+            "The servers guide helps you understand how to find playable sessions, what to check when joins fail, and how to think about region and stability without relying on fabricated live status numbers.",
+            "When you cannot connect, confirm Steam, local network, and in-game server selection before assuming the whole game is down. The page is written for that troubleshooting path."
+          ]
+        },
+        {
+          "heading": "Error Codes & Fixes",
+          "paragraphs": [
+            "Error codes waste the most time when players search randomly instead of matching the exact message. The error-codes page groups common launch, anti-cheat, and connection failures with practical fix orderings.",
+            "Start with the exact code or message text, then work through verify files, driver updates, permission issues, and network checks. Come back here whenever a new error appears after an Early Access update."
+          ]
+        }
+      ],
+      "links": [
+        {
+          "label": "Best WARDOGS settings",
+          "slug": "wardogs-best-settings",
+          "description": "Performance and clarity presets for large multiplayer fights."
+        },
+        {
+          "label": "WARDOGS servers guide",
+          "slug": "wardogs-servers",
+          "description": "Server browsing, join issues, and connection troubleshooting."
+        },
+        {
+          "label": "Error codes and fixes",
+          "slug": "wardogs-error-codes",
+          "description": "Practical fixes for launch, anti-cheat, and match errors."
+        }
+      ]
+    },
+    {
+      "id": "what-is-wardogs",
+      "heading": "What Is WARDOGS?",
+      "intro": "WARDOGS is a tactical all-out warfare FPS from developer BULKHEAD and publisher Team17. This WARDOGS wiki summarizes the Steam-accurate basics so new players know what kind of fight they are joining.",
+      "paragraphs": [
+        "Up to one hundred players split across three teams fight over a Control Zone inspired by king-of-the-hill scoring. Randomized roughly 2x2 km Control Zones sit inside larger maps set in derelict industrial mountains of Eastern Europe. The team with the most players inside the zone earns points, and the first team to 100 points wins.",
+        "Every player begins with $10,000 and buys weapons, gear, utility, and vehicles each life. Teamplay actions—revives, transport, objective work—reward cash, and cash persists from match to match. The sandbox mixes gunplay, vehicles, building, and destruction with proximity voice chat.",
+        "WARDOGS entered Steam Early Access on September 10, 2026. The Early Access build is fully playable and centered on the 100-player, three-team Control Zone loop, with ongoing balance, content, and systems work planned across roughly one to two years of Early Access according to the developer notes on Steam. This WARDOGS wiki stays focused on practical player tools and guides rather than encyclopedic filler."
+      ]
+    },
+    {
+      "id": "start-here",
+      "heading": "Start Here with This WARDOGS Wiki",
+      "intro": "Use this WARDOGS wiki hub as a routing board. Pick the tool or guide that matches the problem you have right now, then return here when the next problem shows up.",
+      "paragraphs": [
+        "New players should open the map and best-settings pages first, then skim loadouts and leveling so cash and XP make sense before the tenth death. Support players should keep the mortar calculator and helicopter controls close. Anyone stuck on joins or crashes should jump straight to servers and error codes.",
+        "Every approved player page is listed below so search engines and humans can crawl the full set from the homepage. Descriptions stay short on purpose—open the page when you need the full walkthrough.",
+        "Bookmark this WARDOGS wiki and treat the eight launch pages as your default field kit while you learn the core tools and guides."
+      ],
+      "links": [
+        {
+          "label": "WARDOGS map",
+          "slug": "wardogs-map",
+          "description": "Tools: Control Zone orientation, terrain, and route planning."
+        },
+        {
+          "label": "WARDOGS mortar calculator",
+          "slug": "wardogs-mortar-calculator",
+          "description": "Tools: distance and azimuth help for mortar fire."
+        },
+        {
+          "label": "Best loadouts",
+          "slug": "wardogs-best-loadouts",
+          "description": "Gameplay: spend your $10k and persistent cash by role."
+        },
+        {
+          "label": "Leveling guide",
+          "slug": "wardogs-leveling-guide",
+          "description": "Gameplay: XP and progression habits that fit objective play."
+        },
+        {
+          "label": "Helicopter controls",
+          "slug": "wardogs-helicopter-controls",
+          "description": "Gameplay: fly transport and logistics without wasting the bird."
+        },
+        {
+          "label": "Best settings",
+          "slug": "wardogs-best-settings",
+          "description": "PC help: FPS, clarity, and performance for big fights."
+        },
+        {
+          "label": "Servers & status",
+          "slug": "wardogs-servers",
+          "description": "PC help: finding sessions and fixing join problems."
+        },
+        {
+          "label": "Error codes",
+          "slug": "wardogs-error-codes",
+          "description": "PC help: decode launch and match errors with fix order."
+        }
+      ]
+    },
+    {
+      "id": "latest-wardogs-player-questions",
+      "heading": "Latest WARDOGS Player Questions",
+      "intro": "These are the questions players bring to a WARDOGS wiki most often. Answers stay practical and stay practical and skip fake population numbers or drop-table rumors.",
+      "paragraphs": [
+        "Use this WARDOGS wiki hub as the index, then open the matching tool or guide for the full answer. Map questions usually mean “where is the zone and how do we approach.” Mortar questions mean “what numbers do I dial for this distance.” Server questions mean “why can I not join a stable match.” Settings questions mean “how do I keep FPS readable when everything is exploding.”",
+        "Loadout questions are about spending the $10,000 start and the cash you keep between matches. XP questions are about whether support actions count. Error questions are about matching the exact message to a fix path. Use the linked pages below the earlier sections for full write-ups; this section is the triage layer.",
+        "If your question is about current queue times, exact seasonal rewards, or a brand-new hotfix number, check Steam news and official channels first. This WARDOGS wiki focuses on durable player systems—map, mortar math, controls, settings, servers, loadouts, leveling, and errors—that stay useful across Early Access updates.",
+        "Quick triage: open the map for zone context and routes; use the mortar calculator for coordinate distance and bearing with shared landmarks; start with best settings when FPS drops; work through servers then error codes when joins fail; rebuild spending with best loadouts when you go broke every life; and review leveling when progress feels slow."
+      ]
+    }
+  ],
+  "faq": [
+    {
+      "question": "What is this WARDOGS wiki for?",
+      "answer": "This WARDOGS wiki is an independent hub for practical player needs: map tools, a mortar calculator, settings, helicopter controls, servers, loadouts, leveling, and error fixes. It complements the official Steam page instead of replacing it."
+    },
+    {
+      "question": "Is WARDOGS in Early Access?",
+      "answer": "Yes. WARDOGS launched into Steam Early Access on September 10, 2026, developed by BULKHEAD and published by Team17. The Early Access build centers on 100-player, three-team Control Zone matches."
+    },
+    {
+      "question": "How does the Control Zone mode work?",
+      "answer": "Three teams contest a randomized Control Zone. The team with the most players inside the zone earns points, and the first team to reach 100 points wins. Zone location and player tactics change how each match unfolds."
+    },
+    {
+      "question": "Where should new players start on this WARDOGS wiki?",
+      "answer": "Open the WARDOGS map and best-settings pages first, then read best loadouts so your $10,000 starting cash goes further. Add leveling, helicopters, servers, or error codes when those problems show up."
+    },
+    {
+      "question": "Do I need the mortar calculator every match?",
+      "answer": "Only if you or a teammate is providing indirect fire. When that is your role, the mortar calculator saves time and reduces missed barrages. Pair it with map landmarks so the whole squad shares the same references."
+    },
+    {
+      "question": "Will this WARDOGS wiki invent live server stats?",
+      "answer": "No. Server and status guidance focuses on how to join, troubleshoot, and stay stable. For live status and hotfixes, check official Steam or developer channels."
+    }
+  ],
+  "screenshots": [],
+  "densityTargets": [
+    {
+      "term": "WARDOGS wiki",
+      "min": 1.5,
+      "max": 3.5
+    }
+  ],
+  "lastReviewed": "2026-09-21"
+}

@@ -1,0 +1,117 @@
+{
+  "gameName": "WARDOGS",
+  "pages": [
+    {
+      "slug": "",
+      "primaryKeyword": "WARDOGS wiki",
+      "secondaryKeywords": ["WARDOGS game", "WARDOGS guide", "WARDOGS map", "WARDOGS mortar calculator", "WARDOGS settings", "WARDOGS loadouts"],
+      "title": "WARDOGS Wiki – Maps, Mortar Calculator, Loadouts & Guides",
+      "description": "WARDOGS wiki with map tools, mortar calculator, best settings, helicopter controls, servers, loadouts, leveling, XP and error fixes for WARDOGS players.",
+      "h1": "WARDOGS Wiki – Maps, Tools, Loadouts & Player Guides",
+      "lead": "Practical WARDOGS wiki for maps, mortar calculator, settings, helicopters, servers, loadouts, leveling and error fixes.",
+      "outline": [
+        { "h2": "WARDOGS Tools", "contentGoal": "Map and mortar tool CTAs." },
+        { "h2": "WARDOGS Gameplay Guides", "contentGoal": "Loadouts, leveling, helicopter." },
+        { "h2": "WARDOGS PC & Server Help", "contentGoal": "Settings, servers, errors." },
+        { "h2": "What Is WARDOGS?", "contentGoal": "Steam-accurate overview." },
+        { "h2": "Start Here with This WARDOGS Wiki", "contentGoal": "Route to all 8 pages." },
+        { "h2": "Latest WARDOGS Player Questions", "contentGoal": "Hot intents without fake live data." }
+      ],
+      "minWordCount": 1600,
+      "targetWordCount": 1900,
+      "keywordPlacement": { "title": true, "h1": true, "first100Words": true, "h2": true, "description": true }
+    },
+    {
+      "slug": "wardogs-mortar-calculator",
+      "primaryKeyword": "wardogs mortar calculator",
+      "secondaryKeywords": ["wardogs mortar", "wardogs artillery calculator", "wardogs artillery", "wardogs mortar range", "wardogs mortar map"],
+      "title": "WARDOGS Mortar Calculator – Range, Azimuth & Artillery",
+      "description": "Use the WARDOGS mortar calculator for range, azimuth and artillery setup, with verified firing guidance, map workflow and practical mortar tips.",
+      "h1": "WARDOGS Mortar Calculator",
+      "pageType": "tool",
+      "toolKind": "wardogs-mortar-calculator",
+      "minWordCount": 1200,
+      "targetWordCount": 1600,
+      "keywordPlacement": { "title": true, "h1": true, "first100Words": true, "h2": true, "description": true }
+    },
+    {
+      "slug": "wardogs-map",
+      "primaryKeyword": "wardogs map",
+      "secondaryKeywords": ["wardogs map tool", "wardogs interactive map", "wardogs maps", "wardogs fob map", "wardogs mortar map"],
+      "title": "WARDOGS Map Tool – Interactive Maps, FOBs & Key Locations",
+      "description": "Explore the WARDOGS map tool for maps, FOBs, objectives and key locations, with quick links to coordinates and the mortar calculator.",
+      "h1": "WARDOGS Map Tool",
+      "pageType": "tool",
+      "toolKind": "wardogs-map",
+      "minWordCount": 1200,
+      "targetWordCount": 1500,
+      "keywordPlacement": { "title": true, "h1": true, "first100Words": true, "h2": true, "description": true }
+    },
+    {
+      "slug": "wardogs-best-settings",
+      "primaryKeyword": "wardogs best settings",
+      "secondaryKeywords": ["wardogs settings", "wardogs graphics settings", "wardogs fps settings", "wardogs performance settings"],
+      "title": "WARDOGS Best Settings – FPS, Graphics & Visibility",
+      "description": "Best WARDOGS settings for FPS, graphics, visibility and performance. Use practical PC settings and troubleshooting tips for smoother gameplay.",
+      "h1": "WARDOGS Best Settings for FPS and Visibility",
+      "minWordCount": 1000,
+      "targetWordCount": 1400,
+      "keywordPlacement": { "title": true, "h1": true, "first100Words": true, "h2": true, "description": true }
+    },
+    {
+      "slug": "wardogs-helicopter-controls",
+      "primaryKeyword": "wardogs helicopter controls",
+      "secondaryKeywords": ["wardogs helicopter", "wardogs heli controls", "wardogs helicopter settings", "wardogs hotas"],
+      "title": "WARDOGS Helicopter Controls – Settings, HOTAS & Tips",
+      "description": "WARDOGS helicopter controls, keybinds, sensitivity, HOTAS setup and flying tips. Learn the essential heli controls and settings in one guide.",
+      "h1": "WARDOGS Helicopter Controls and Settings",
+      "minWordCount": 1000,
+      "targetWordCount": 1300,
+      "keywordPlacement": { "title": true, "h1": true, "first100Words": true, "h2": true, "description": true }
+    },
+    {
+      "slug": "wardogs-servers",
+      "primaryKeyword": "wardogs servers",
+      "secondaryKeywords": ["wardogs server", "wardogs server status", "wardogs community servers", "wardogs community server cash bonus", "wardogs queue"],
+      "title": "WARDOGS Servers – Community Servers, Status & Cash Bonus",
+      "description": "WARDOGS servers guide covering community servers, server status, browser, IDs, queue issues and community server cash bonus questions.",
+      "h1": "WARDOGS Servers and Community Server Guide",
+      "minWordCount": 1000,
+      "targetWordCount": 1300,
+      "keywordPlacement": { "title": true, "h1": true, "first100Words": true, "h2": true, "description": true }
+    },
+    {
+      "slug": "wardogs-best-loadouts",
+      "primaryKeyword": "wardogs best loadouts",
+      "secondaryKeywords": ["wardogs loadout", "wardogs loadouts", "wardogs best attachments", "wardogs weapon damage", "wardogs best weapons"],
+      "title": "WARDOGS Best Loadouts – Weapons, Attachments & Builds",
+      "description": "Best WARDOGS loadouts with weapons, attachments and builds for common roles. Compare practical setups and improve your combat loadout.",
+      "h1": "WARDOGS Best Loadouts and Attachments",
+      "minWordCount": 1000,
+      "targetWordCount": 1400,
+      "keywordPlacement": { "title": true, "h1": true, "first100Words": true, "h2": true, "description": true }
+    },
+    {
+      "slug": "wardogs-leveling-guide",
+      "primaryKeyword": "wardogs leveling guide",
+      "secondaryKeywords": ["wardogs xp", "wardogs support xp", "wardogs recon xp", "wardogs leveling", "wardogs progression"],
+      "title": "WARDOGS Leveling Guide – XP, Support & Recon Fast",
+      "description": "WARDOGS leveling guide for XP, Support XP and Recon XP. Learn practical progression methods, role priorities and ways to level efficiently.",
+      "h1": "WARDOGS Leveling Guide – XP, Support XP and Recon XP",
+      "minWordCount": 1000,
+      "targetWordCount": 1300,
+      "keywordPlacement": { "title": true, "h1": true, "first100Words": true, "h2": true, "description": true }
+    },
+    {
+      "slug": "wardogs-error-codes",
+      "primaryKeyword": "wardogs error codes",
+      "secondaryKeywords": ["wardogs error", "wardogs 1147405308", "unable to launch wardogs", "wardogs failed to authenticate with online services", "wardogs kicked from match"],
+      "title": "WARDOGS Error Codes – 1147405308, Launch & Auth Fixes",
+      "description": "Fix WARDOGS error codes including 1147405308, launch failures, authentication problems, kicked-from-match errors and common connection issues.",
+      "h1": "WARDOGS Error Codes and Fixes",
+      "minWordCount": 1000,
+      "targetWordCount": 1400,
+      "keywordPlacement": { "title": true, "h1": true, "first100Words": true, "h2": true, "description": true }
+    }
+  ]
+}
