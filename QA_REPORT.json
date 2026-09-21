@@ -10,9 +10,10 @@
     "audit:seo": "pass"
   },
   "notes": [
-    "Final grammar pass cleared The the / this this residuals.",
-    "Mortar copy aligned to coordinate/grid distance + bearing only; no range-dial equivalence claim.",
-    "700 meters remains labeled as community working envelope, not official max range.",
-    "Domain set to https://wardogs-wiki.github.io; contact via GitHub Issues; readyForLaunch=true."
+    "Cleared remaining grammar residues: your the / this the / the this / duplicate leveling fragment.",
+    "Map/Mortar copy no longer implies website coordinate picking, pin drops, or auto-transfer into the calculator.",
+    "Mortar terminology standardized to grid/coordinate distance + bearing; 700m kept as community-reported estimate.",
+    "manifest icon MIME corrected to image/webp for wardogs-logo.webp.",
+    "Domain confirmed: https://wardogs-wiki.github.io with empty basePath and readyForLaunch=true."
   ]
 }

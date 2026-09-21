@@ -15,6 +15,6 @@ export default function manifest(): MetadataRoute.Manifest {
     display: "standalone",
     background_color: `hsl(${theme.tokens.background})`,
     theme_color: `hsl(${theme.tokens.primary})`,
-    icons: [{ src: assetPath(siteConfig.assets.logo), sizes: "any", type: "image/svg+xml" }],
+    icons: [{ src: assetPath(siteConfig.assets.logo), sizes: "any", type: "image/webp" }],
   };
 }

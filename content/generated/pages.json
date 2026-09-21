@@ -75,9 +75,9 @@
         "heading": "Current WARDOGS Maps and Planning Priorities",
         "intro": "Early Access map names used by players and community tools currently include Bakurani, Ozeti, and Zestafona.",
         "paragraphs": [
-          "Present those names as the live set players are navigating right now, not as a promise that the roster will never expand. When you load into a server, verify the map title in the browser or loading screen, then open the matching WARDOGS map layer so your pins land on the correct terrain.",
+          "Present those names as the live set players are navigating right now, not as a promise that the roster will never expand. When you load into a server, verify the map title in the browser or loading screen, then open the matching WARDOGS map guide layer so your planning matches the correct terrain.",
           "Planning priorities on any WARDOGS map are less about tourist landmarks and more about functional ground: Control Zone interiors, covered FOB pockets, vehicle routes, helicopter landing lanes, and sightlines for recon. Because the mode is zone control under pressure, the “important” location is whichever ground lets your team score the next points while keeping a supply line alive.",
-          "Avoid memorizing fake static FOB coordinates from random screenshots. A strong FOB on one round can be a death trap on the next if the zone rotation or enemy vehicle path changed. Use the WARDOGS map to evaluate cover and distance live, then rebuild your pins for that match."
+          "Avoid memorizing fake static FOB coordinates from random screenshots. A strong FOB on one round can be a death trap on the next if the zone rotation or enemy vehicle path changed. Use this WARDOGS map guide for orientation, then evaluate cover and distance on the live in-game map for that match."
         ],
         "subsections": [
           {
@@ -148,7 +148,7 @@
           {
             "label": "Mortar Calculator",
             "slug": "wardogs-mortar-calculator",
-            "description": "Convert pins into firing data."
+            "description": "Turn live-match coordinates into distance and bearing."
           },
           {
             "label": "WARDOGS Servers",
@@ -236,7 +236,7 @@
     "wordCountTarget": 1500,
     "sourceNotes": [
       "Steam Early Access facts: BULKHEAD / Team17, FOB building, vehicles, large Control Zones.",
-      "Community/IGN-style mortar workflow: build at FOB with building supplies; use map coordinates for distance and azimuth; dial range in-game.",
+      "Community/IGN-style mortar workflow: build at FOB with building supplies; read in-game map coordinates for grid distance and bearing; confirm final sighting values in-match.",
       "Typical working distance often discussed by players around roughly 700 meters; not an official max-range claim."
     ],
     "factsStatus": "verified",
@@ -260,7 +260,7 @@
             "description": "Set your firing position and the impact point on the map so both coordinates are clear to the gunner and the spotter."
           },
           {
-            "heading": "Read distance and azimuth",
+            "heading": "Read distance and bearing",
             "description": "Use the calculator output for coordinate distance and bearing, then communicate the result in a short callout."
           },
           {
@@ -272,7 +272,7 @@
           {
             "label": "WARDOGS Map Tool",
             "slug": "wardogs-map",
-            "description": "Pick coordinates and review map layout before you calculate the shot."
+            "description": "Review the map guide, then read the coordinates from your live in-game map before entering them into the calculator."
           }
         ]
       },
@@ -281,22 +281,22 @@
         "heading": "WARDOGS Mortar Distance and Bearing",
         "intro": "Coordinate distance tells you how far apart the points are on your shared grid. Bearing tells you the direction from the firing point to the target.",
         "paragraphs": [
-          "Range is the ground distance between the mortar and the target. Azimuth is the direction you must face the tube so the round travels along that line. The WARDOGS mortar calculator focuses on those two values because they transfer cleanly into gameplay without inventing elevation formulas that the client may not expose the same way.",
-          "Players typically work within roughly 700 meters for practical mortar support. That figure is a community working envelope, not an official published maximum, and real engagement distance still depends on terrain, cover, and whether your spotter can actually see the impact. If a requested fire mission sits far outside the distances your squad has been landing, reposition the mortar or choose a different support option.",
-          "Azimuth mistakes usually come from confusing map north with the direction your character is facing, or from calling degrees in the wrong direction when correcting. Agree on a simple language: “add five degrees right” should always mean the same thing to gunner and spotter. Write the first solution down or leave the calculator visible so mid-fight panic does not wipe the baseline.",
+          "Grid distance is the coordinate distance between the mortar and the target. Bearing is the direction from Point A to Point B on that shared grid. The WARDOGS mortar calculator focuses on those two values as a planning reference, without inventing elevation formulas, MIL tables, or meter-perfect firing solutions the client may not expose the same way.",
+          "Players typically discuss roughly 700 meters as a community-reported estimate for practical mortar support. That figure is a rough community reference, not an official published maximum, and real engagement distance still depends on terrain, cover, and whether your spotter can actually see the impact. If a requested fire mission sits far outside the distances your squad has been landing, reposition the mortar or choose a different support option.",
+          "Bearing mistakes usually come from confusing map north with the direction your character is facing, or from calling degrees in the wrong direction when correcting. Agree on a simple language: “add five degrees right” should always mean the same thing to gunner and spotter. Write the first planning values down or leave the calculator visible so mid-fight panic does not wipe the baseline.",
           "When the target is on a slope, behind a ridge, or inside dense structures, expect the first round to need adjustment even if the planar distance looks perfect. Destruction and building cover in WARDOGS can hide impacts, so rely on a spotter’s voice call rather than assuming every miss is a calculator error.",
-          "Rehearse the WARDOGS mortar calculator callout format with your squad: mortar grid, target grid, range, azimuth, and who is spotting impacts.",
-          "When two spotters disagree, trust fresh pins in the WARDOGS mortar calculator over whoever shouted loudest on proximity voice."
+          "Rehearse the WARDOGS mortar calculator callout format with your squad: mortar grid, target grid, grid distance, bearing, and who is spotting impacts.",
+          "When two spotters disagree, trust freshly entered coordinates in the WARDOGS mortar calculator over whoever shouted loudest on proximity voice."
         ],
         "subsections": [
           {
             "heading": "What the calculator should and should not claim",
             "paragraphs": [
-              "A trustworthy WARDOGS mortar calculator should give distance and azimuth from coordinates and help you repeat corrections. It should not invent MIL tables, exact blast radii, or damage numbers that are not published in-game."
+              "A trustworthy WARDOGS mortar calculator should give grid distance and bearing from coordinates and help you repeat corrections. It should not invent MIL tables, exact blast radii, or damage numbers that are not published in-game."
             ],
             "bullets": [
-              "Do use coordinate-based range and direction.",
-              "Do dial the in-game range sight after you read the tool.",
+              "Do use coordinate distance and bearing.",
+              "Do confirm the final in-game sighting value separately after you read the tool.",
               "Do not treat community range chatter as a hard official cap.",
               "Do not substitute the calculator for a spotter when friendlies are near the impact zone."
             ]
@@ -325,19 +325,19 @@
       {
         "id": "using-the-wardogs-map-with-the-mortar-calculator",
         "heading": "Using the WARDOGS Map with the Mortar Calculator",
-        "intro": "The map tool and the WARDOGS mortar calculator are strongest when used as one workflow.",
+        "intro": "The map guide and the WARDOGS mortar calculator are strongest when used as one workflow.",
         "paragraphs": [
-          "Open the WARDOGS map tool to understand Control Zones, likely FOB approaches, and the terrain corridor your rounds must travel. Early Access map names players currently use include Bakurani, Ozeti, and Zestafona. Treat those as the live community map set rather than a permanent final list, and always confirm the map name in your server browser before planning long-range support.",
-          "Coordinate picking is the bridge between the two tools. Drop a pin on the mortar, drop a pin on the target, then feed those positions into the WARDOGS mortar calculator. If your squad shares a common callout language for grid landmarks, add that landmark name to the radio message so infantry knows where the danger close fire is landing.",
-          "Avoid treating one FOB pin as permanent. FOB placement is a match decision. Use the map to evaluate cover, supply routes, and angle to the active Control Zones, then recalculate whenever the tube moves. A calculator that is updated beats a perfect solution for a mortar that no longer exists.",
-          "Bookmark the WARDOGS mortar calculator beside the map tool so coordinate copies never bounce through three chat channels first.",
-          "If the front line jumps a compound, rebuild the target pin and rerun the WARDOGS mortar calculator instead of walking fire blindly across the street."
+          "Open the WARDOGS map guide to understand Control Zones, likely FOB approaches, and the terrain corridor your rounds must travel. Early Access map names players currently use include Bakurani, Ozeti, and Zestafona. Treat those as the live community map set rather than a permanent final list, and always confirm the map name in your server browser before planning long-range support.",
+          "Your in-game map coordinates connect the map guide with the mortar calculator. Read the firing position and target coordinates from your live match, then enter them manually into the WARDOGS mortar calculator. If your squad shares a common callout language for grid landmarks, add that landmark name to the radio message so infantry knows where the danger close fire is landing.",
+          "Avoid treating one FOB position as permanent. FOB placement is a match decision. Use the map guide and live in-game map to evaluate cover, supply routes, and angle to the active Control Zones, then recalculate whenever the tube moves. An updated calculator entry beats a perfect plan for a mortar that no longer exists.",
+          "Bookmark the WARDOGS mortar calculator beside the map guide so coordinate callouts never bounce through three chat channels first.",
+          "If the front line jumps a compound, re-read the target coordinates and rerun the WARDOGS mortar calculator instead of walking fire blindly across the street."
         ],
         "links": [
           {
             "label": "Open the WARDOGS Map",
             "slug": "wardogs-map",
-            "description": "Review map layout and pick coordinates for your next fire mission."
+            "description": "Review the map guide, then read live-match coordinates before your next fire mission."
           },
           {
             "label": "WARDOGS Servers Guide",
@@ -351,10 +351,10 @@
         "heading": "Common Mortar Aiming Mistakes",
         "intro": "Most missed barrages come from process errors, not from the idea of using a calculator.",
         "paragraphs": [
-          "The first mistake is firing without a confirmed mortar position. If the tube was rebuilt a few meters away after a raid, yesterday’s azimuth is wrong. Always refresh both pins in the WARDOGS mortar calculator after a rebuild or a redeploy.",
-          "The second mistake is correcting the wrong axis. If the spotter says the round landed left, change azimuth; if it landed short or long, change range. Mixing those corrections creates a wandering impact that never settles. Keep one variable fixed while you solve the other whenever possible.",
+          "The first mistake is firing without a confirmed mortar position. If the tube was rebuilt a few meters away after a raid, yesterday’s bearing is wrong. Always re-enter both coordinates in the WARDOGS mortar calculator after a rebuild or a redeploy.",
+          "The second mistake is correcting the wrong axis. If the spotter says the round landed left, adjust bearing; if it landed short or long, confirm the final in-game sighting value separately. Mixing those corrections creates a wandering impact that never settles. Keep one variable fixed while you solve the other whenever possible.",
           "The third mistake is ignoring friendly movement. WARDOGS fights shift quickly around Control Zones, vehicles, and destruction. A perfect solution on an empty ridge becomes a team-damage risk when your own squad pushes through the same compound. Call danger-close clearly, or hold fire until infantry is clear.",
-          "The fourth mistake is overconfidence in maximum distance chatter. Players typically work within roughly 700 meters, but that does not mean every shot at the edge of that envelope is smart. Closer, observed fire with a living spotter usually wins more zones than speculative long shots that reveal your FOB for no gain.",
+          "The fourth mistake is overconfidence in maximum distance chatter. Players typically discuss roughly 700 meters as a community-reported estimate, but that does not mean every shot at the edge of that envelope is smart. Closer, observed fire with a living spotter usually wins more zones than speculative long shots that reveal your FOB for no gain.",
           "A final sanity check with the WARDOGS mortar calculator beats guessing when smoke hides the first impact and your spotter only heard the round.",
           "Squads that win with mortars treat the WARDOGS mortar calculator as a shared instrument, not a private gunner toy.",
           "Close the loop by saving one screenshot of a clean solution from the WARDOGS mortar calculator for squad onboarding."
@@ -369,13 +369,13 @@
           "rows": [
             [
               "Impact left or right",
-              "Adjust azimuth in small steps",
+              "Adjust bearing in small steps",
               "Spotter call + calculator refresh"
             ],
             [
               "Impact short or long",
               "Confirm sighting values in the live match",
-              "Updated target pin"
+              "Updated target coordinates"
             ],
             [
               "No impact seen",
@@ -398,11 +398,11 @@
       },
       {
         "question": "How do I get mortar coordinates in WARDOGS?",
-        "answer": "Use the WARDOGS map tool to pick your firing position and the target position, then enter or transfer those points into the WARDOGS mortar calculator before you shoot."
+        "answer": "Use the WARDOGS map guide to understand the area, then read your firing position and target coordinates from the in-game map. Enter those values manually into the WARDOGS mortar calculator before you shoot."
       },
       {
         "question": "Is 700 meters the official mortar max range?",
-        "answer": "No official max range is claimed here. Players typically work within roughly 700 meters, so treat that as a practical community envelope and verify what your squad can land in-match."
+        "answer": "No official max range is claimed here. Players typically discuss roughly 700 meters as a community-reported estimate, so treat that as a rough community reference and verify what your squad can land in-match."
       },
       {
         "question": "Can I build a mortar without a FOB?",
@@ -475,7 +475,7 @@
           "Use these WARDOGS best settings as a practical baseline on busy Control Zone maps with vehicles, helicopters and destruction. WARDOGS is a large-scale tactical shooter with vehicles, helicopters, destruction and busy Control Zone fights, so frame time spikes are normal if your PC is already near the Steam minimum. The approach is simple: protect resolution and visibility first, then lower the expensive effects that usually hurt FPS in chaotic multiplayer scenes.",
           "Steam lists Windows 10 or 11, 16GB of RAM, a GTX 1660 or Radeon RX 590 class GPU as the minimum, and an RTX 3070 or Radeon RX 6700 XT class GPU as recommended, with roughly 50GB of storage. If you are near the minimum, start with a competitive-leaning mix rather than ultra cosmetics. If you meet or beat the recommended GPU, you can keep more lighting polish while still capping frames for stability.",
           "Begin with a native or clean scaled resolution, a frame-rate cap your GPU can hold in a full fight, and lower shadow or effects quality if those options are available. Cap frame rate when your GPU is thermal throttling instead of chasing a peak number in an empty area. Stability during a three-team zone fight matters more than a benchmark screenshot.",
-          "Write down your the recommended setup after a good match so a patch reset does not send you back to random defaults.",
+          "Write down your recommended setup after a good match so a patch reset does not send you back to random defaults.",
           "Compare your graphics setup against the Steam minimum and recommended brackets so you are not copying an RTX 3070 preset onto a GTX 1660 laptop."
         ],
         "table": {
@@ -534,7 +534,7 @@
           "The best WARDOGS settings for visibility usually keep contrast readable, reduce exaggerated bloom or motion blur if those toggles exist, and preserve enough draw distance to see vehicles before they crest a ridge. Lowering every option blindly can make distant players and helicopters harder to track, which costs more rounds than a few lost frames.",
           "Prioritize readability in mixed indoor and outdoor Control Zones. If a setting makes dark corners crush to black or bright exteriors blow out, adjust brightness and related graphics options until both spaces stay usable. Competitive players often accept simpler shadows if the trade buys a steadier frame pace while aiming.",
           "Because destruction and particle spam can spike during pushes, test settings in a live fight rather than the main menu. The best settings for your machine are the ones that hold in a contested zone with vehicles nearby, not the ones that look fine on the title screen.",
-          "When friends share screenshots of ultra presets, compare them against your the recommended setup goal: readable fights first, cosmetics second.",
+          "When friends share screenshots of ultra presets, compare them against your recommended setup goal: readable fights first, cosmetics second.",
           "A clean graphics setup also leaves CPU headroom for voice, map tools and browser overlays you actually need."
         ],
         "subsections": [
@@ -1266,11 +1266,11 @@
         "heading": "WARDOGS Leveling Guide and XP Basics",
         "intro": "This WARDOGS leveling guide keeps progression tied to objective play, Support work and Recon value instead of empty grind loops.",
         "paragraphs": [
-          "A useful WARDOGS leveling guide starts with the loop you can trust: play objectives, support the squad, earn cash that persists between matches, and let XP follow meaningful actions. play objectives, support the squad, earn cash that persists between matches, and let XP follow meaningful participation. Starting money gives you room to take a role immediately, while Hot Zone risk can accelerate cash when your team can handle the pressure.",
+          "A useful WARDOGS leveling guide starts with the loop you can trust: play objectives, support the squad, earn cash that persists between matches, and let XP follow meaningful participation. Starting money gives you room to take a role immediately, while Hot Zone risk can accelerate cash when your team can handle the pressure.",
           "Because exact XP values and hourly rates are not something this guide invents, think in actions rather than spreadsheets. Capturing and defending Control Zones, moving supplies, building and maintaining FOB utility, reviving teammates, spotting threats and finishing coordinated pushes are the behaviors that stay valuable even when a patch retunes numbers.",
           "Server choice affects how fast a night feels. A populated host with clean moderation lets you practice Support or Recon loops without constant grief. Check the servers guide if your progression nights keep dying to empty browsers or unstable queues.",
           "Use this progression plan as a session planner: choose Support or Recon before you spawn, then refuse side quests that abandon that lane.",
-          "Share this the leveling loop with your stack so everyone stops chasing conflicting XP goals in the same squad."
+          "Share this leveling loop with your stack so everyone stops chasing conflicting XP goals in the same squad."
         ],
         "links": [
           {
@@ -1288,7 +1288,7 @@
           "Support progression is the backbone fantasy of WARDOGS. If you want Support XP, volunteer for the unglamorous jobs that keep a team on the scoreboard: deliver building supplies, help stand up and defend a FOB, keep ammo and teammates flowing, and revive players who are still in a useful position.",
           "Builders and logistics players should treat the map as part of the XP plan. A short, repeated supply route that actually arrives beats a heroic detour that dies in a dead-end alley. When your squad wants mortar pressure, Support play is what keeps the tube alive long enough to matter.",
           "Do not confuse Support XP with staying forever behind the front line. The best support players still understand zone timing. Arrive with the push, drop what the squad needs, and leave before you become another body to recover.",
-          "Squad leads can accelerate the this leveling path plan by assigning one dedicated supply runner instead of hoping somebody volunteers mid-fight."
+          "Squad leads can accelerate this leveling path by assigning one dedicated supply runner instead of hoping somebody volunteers mid-fight."
         ],
         "links": [
           {
@@ -1359,7 +1359,7 @@
           "Spend some nights as pure Support, some as Recon, and some as the infantry finisher who converts the work those roles create. That rotation teaches the whole loop and prevents burnout from one stubborn grind plan.",
           "Squad up when you can. A coordinated trio completes more supply runs, mortar shoots and recon-to-push sequences than three solo players who never share pins. The leveling-loop advantage is social as much as mechanical.",
           "After patches, reassess. If a role feels weaker, shift effort toward whatever team actions still clearly move cash, zones and match outcomes. Flexible players outpace stubborn ones in Early Access.",
-          "Archive a simple this leveling path checklist in Discord: Support night, Recon night, finisher night, then repeat.",
+          "Keep a simple leveling checklist in Discord: Support night, Recon night, finisher night, then repeat.",
           "A complete XP progression also accounts for morale. Long Support nights feel slow if your squad never acknowledges supply arrivals, so call out completed drops and successful revives. Positive feedback keeps people on the roles that actually generate XP momentum.",
           "When you finish a focused evening, write one sentence about what worked: which FOB route stayed safe, which recon ridge got results, and which kit you could repurchase. That journal becomes the practical half of your progression plan and prevents you from reinventing the same mistakes next weekend.",
           "Captains can assign the leveling-loop focus in the ready room: one Support primary, one Recon primary, everyone else finishing zones."

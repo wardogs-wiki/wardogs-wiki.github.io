@@ -83,7 +83,7 @@
         {
           "label": "Open the mortar calculator",
           "slug": "wardogs-mortar-calculator",
-          "description": "Tools: distance and azimuth help for mortar fire."
+          "description": "Tools: coordinate distance and bearing help for mortar fire."
         }
       ]
     },
@@ -213,7 +213,7 @@
         {
           "label": "WARDOGS mortar calculator",
           "slug": "wardogs-mortar-calculator",
-          "description": "Tools: distance and azimuth help for mortar fire."
+          "description": "Tools: coordinate distance and bearing help for mortar fire."
         },
         {
           "label": "Best loadouts",
