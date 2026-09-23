@@ -1,6 +1,7 @@
 import { Calculator, ExternalLink, Gamepad2, Map } from "lucide-react";
 import Link from "next/link";
 import { NativeAdSlot } from "@/components/integrations/native-ad-slot";
+import { ResponsiveBannerAdSlot } from "@/components/integrations/responsive-banner-ad-slot";
 import { Faq } from "@/components/site/faq";
 import { JsonLd } from "@/components/site/json-ld";
 import { PageSections } from "@/components/site/page-sections";
@@ -73,6 +74,8 @@ export default function HomePage() {
             </aside>
           </div>
         </section>
+
+        <div className="site-container"><ResponsiveBannerAdSlot /></div>
 
         {visibleCorePages.length ? (
           <section className="border-b border-border bg-card/40" aria-label="Quick page links">

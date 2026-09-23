@@ -1,6 +1,7 @@
 import { CalendarCheck2 } from "lucide-react";
 import Link from "next/link";
 import { NativeAdSlot } from "@/components/integrations/native-ad-slot";
+import { ResponsiveBannerAdSlot } from "@/components/integrations/responsive-banner-ad-slot";
 import type { SeoPageDefinition } from "@/config/types";
 import { getRelatedPages, visibleCorePages } from "@/content/registry";
 import { pageSchemas } from "@/lib/schema";
@@ -38,6 +39,8 @@ export function WikiSeoPage({ page }: { page: SeoPageDefinition }) {
             </p>
           </div>
         </section>
+
+        <div className="site-container"><ResponsiveBannerAdSlot /></div>
 
         <PageTool page={page} />
 

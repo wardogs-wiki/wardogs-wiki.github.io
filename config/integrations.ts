@@ -1,4 +1,5 @@
 import type { IntegrationConfig } from "./types";
+import { adsterra } from "./ads";
 import generatedIntegrationsRaw from "../content/generated/integrations.json";
 
 type GeneratedIntegrations = {
@@ -9,8 +10,11 @@ type GeneratedIntegrations = {
 
 const generatedIntegrations = generatedIntegrationsRaw as GeneratedIntegrations;
 
-const adScriptUrl = process.env.NEXT_PUBLIC_ADSTERRA_NATIVE_SCRIPT_URL?.trim();
-const adContainerId = process.env.NEXT_PUBLIC_ADSTERRA_NATIVE_CONTAINER_ID?.trim();
+const adFormats: Array<"responsive-banner" | "native-banner" | "social-bar"> = [
+  "responsive-banner",
+  "native-banner",
+  "social-bar",
+];
 
 const gaFromEnv = process.env.NEXT_PUBLIC_GA_MEASUREMENT_ID?.trim() || "";
 const gaFromGenerated = typeof generatedIntegrations.gaMeasurementId === "string"
@@ -34,14 +38,9 @@ export const integrations: IntegrationConfig = {
   analytics: /^G-[A-Z0-9]+$/i.test(gaMeasurementId)
     ? { provider: "google-analytics", measurementId: gaMeasurementId.toUpperCase() }
     : { provider: "none" },
-  ads:
-    adScriptUrl && adContainerId
-      ? {
-          provider: "adsterra-native",
-          scriptUrl: adScriptUrl,
-          containerId: adContainerId,
-        }
-      : { provider: "none" },
+  ads: adsterra.socialBar.invokeSrc
+    ? { provider: "adsterra", formats: adFormats }
+    : { provider: "none" },
   verification: {
     google: googleVerification,
     bing: bingVerification,

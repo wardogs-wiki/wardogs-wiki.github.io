@@ -113,9 +113,8 @@ export interface IntegrationConfig {
   ads:
     | { provider: "none" }
     | {
-        provider: "adsterra-native";
-        scriptUrl: string;
-        containerId: string;
+        provider: "adsterra";
+        formats: Array<"responsive-banner" | "native-banner" | "social-bar">;
       };
   verification: {
     google: string | null;

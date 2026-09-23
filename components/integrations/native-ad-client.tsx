@@ -18,6 +18,10 @@ export function NativeAdClient({ scriptUrl, containerId }: { scriptUrl: string; 
     script.src = scriptUrl;
     script.dataset.cfasync = "false";
     script.dataset.gameWikiNativeAd = containerId;
+    script.onerror = () => {
+      // Ad blocker or network failure: hide the whole slot, page keeps working.
+      host.closest("[data-ad-slot]")?.setAttribute("hidden", "");
+    };
     host.insertBefore(script, container);
 
     return () => {

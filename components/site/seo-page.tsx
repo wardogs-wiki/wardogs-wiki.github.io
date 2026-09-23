@@ -5,6 +5,7 @@ import { pageSchemas } from "@/lib/schema";
 import { getRelatedPages } from "@/content/registry";
 import { assetPath } from "@/lib/urls";
 import { NativeAdSlot } from "@/components/integrations/native-ad-slot";
+import { ResponsiveBannerAdSlot } from "@/components/integrations/responsive-banner-ad-slot";
 import { Breadcrumbs } from "./breadcrumbs";
 import { Faq } from "./faq";
 import { JsonLd } from "./json-ld";
@@ -35,6 +36,8 @@ export function SeoPage({ page }: { page: SeoPageDefinition }) {
             </p>
           </div>
         </section>
+
+        <div className="site-container"><ResponsiveBannerAdSlot /></div>
 
         <PageTool page={page} />
 

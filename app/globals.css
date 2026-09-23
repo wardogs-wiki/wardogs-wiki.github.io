@@ -23,6 +23,33 @@ a { transition: color .18s ease, border-color .18s ease, background-color .18s e
   .eyebrow { @apply mb-3 text-xs font-black uppercase tracking-[.24em] text-primary; }
   .content-card { @apply rounded-theme border border-border bg-card/70 p-6 text-muted-foreground shadow-theme transition; }
   .section-lead { @apply mt-4 max-w-3xl text-base leading-7 text-muted-foreground sm:text-lg; }
+  .ad-slot {
+    margin: 1.75rem auto;
+    width: 100%;
+    max-width: 100%;
+  }
+  .ad-slot-label {
+    margin-bottom: .4rem;
+    text-align: center;
+    font-size: .65rem;
+    font-weight: 700;
+    letter-spacing: .18em;
+    text-transform: uppercase;
+    color: hsl(var(--muted-foreground) / .6);
+  }
+  .ad-slot-frame {
+    display: flex;
+    justify-content: center;
+    max-width: 100%;
+  }
+  .ad-slot-native .ad-slot-frame {
+    display: block;
+    min-height: 60px;
+    padding: .35rem;
+    border: 1px dashed hsl(var(--border));
+    border-radius: calc(var(--radius) * .5);
+    background: hsl(var(--card) / .35);
+  }
   .button-primary { @apply inline-flex items-center gap-2 rounded-[calc(var(--radius)*.65)] bg-primary px-5 py-3 text-sm font-black text-primary-foreground shadow-theme hover:-translate-y-0.5; }
   .button-secondary { @apply inline-flex items-center gap-2 rounded-[calc(var(--radius)*.65)] border border-border bg-card px-5 py-3 text-sm font-black text-foreground hover:border-primary/60; }
   .skip-link { @apply fixed left-4 top-3 z-[100] -translate-y-20 rounded-md bg-primary px-4 py-2 font-bold text-primary-foreground focus:translate-y-0; }

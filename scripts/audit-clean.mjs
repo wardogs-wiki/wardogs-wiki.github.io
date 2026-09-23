@@ -4,6 +4,8 @@ import { extname, join, relative } from "node:path";
 const root = process.cwd();
 const skippedDirs = new Set([".git", ".next", "node_modules", "out", ".playwright-cli", ".agent", ".grok"]);
 const skippedFiles = new Set(["package-lock.json", "audit-clean.mjs"]);
+// The site's own Adsterra GET CODE values live in this one allowlisted module.
+const adIdAllowlistedFiles = new Set(["config/ads.ts"]);
 const textExtensions = new Set([".ts", ".tsx", ".js", ".mjs", ".json", ".md", ".css", ".html", ".txt", ".yml", ".yaml"]);
 const legacyLabels = [
   ["Scary", "Shawarma"].join(" "),
@@ -33,8 +35,10 @@ function inspect(path) {
   for (const email of emails) findings.push(`${displayPath}: hardcoded email '${email}'`);
   const publisherIds = text.match(/\bca-pub-\d{8,}\b/gi) ?? [];
   for (const id of publisherIds) findings.push(`${displayPath}: hardcoded advertising publisher ID '${id}'`);
-  if (/data-code=["'][A-Za-z0-9_-]{16,}["']/.test(text)) findings.push(`${displayPath}: hardcoded analytics code`);
-  if (/container-[a-f0-9]{24,}/i.test(text)) findings.push(`${displayPath}: hardcoded advertising container ID`);
+  if (!adIdAllowlistedFiles.has(displayPath)) {
+    if (/data-code=["'][A-Za-z0-9_-]{16,}["']/.test(text)) findings.push(`${displayPath}: hardcoded analytics code`);
+    if (/container-[a-f0-9]{24,}/i.test(text)) findings.push(`${displayPath}: hardcoded advertising container ID`);
+  }
 }
 
 walk(root);

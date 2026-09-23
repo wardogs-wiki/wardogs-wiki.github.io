@@ -1,4 +1,5 @@
 import { integrations } from "../config/integrations";
+import { adsterra } from "../config/ads";
 import { siteConfig } from "../config/site";
 import { themes } from "../config/themes";
 import type { InternalLink, PageSection, SeoPageDefinition } from "../config/types";
@@ -122,16 +123,13 @@ for (const url of externalUrls) {
   }
 }
 
-if (integrations.ads.provider === "adsterra-native") {
-  if (!integrations.ads.scriptUrl.startsWith("https://") || !integrations.ads.containerId) {
-    fail("Native advertising requires an HTTPS script URL and a container ID");
+if (integrations.ads.provider === "adsterra") {
+  if (!adsterra.desktopBanner.invokeSrc.startsWith("https://")) fail("Adsterra desktop banner script must be an HTTPS URL");
+  if (!adsterra.mobileBanner.invokeSrc.startsWith("https://")) fail("Adsterra mobile banner script must be an HTTPS URL");
+  if (!adsterra.native.invokeSrc.startsWith("https://") || !adsterra.native.containerId) {
+    fail("Adsterra native banner requires an HTTPS script URL and a container ID");
   }
-}
-
-const rawAdScript = process.env.NEXT_PUBLIC_ADSTERRA_NATIVE_SCRIPT_URL?.trim();
-const rawAdContainer = process.env.NEXT_PUBLIC_ADSTERRA_NATIVE_CONTAINER_ID?.trim();
-if (Boolean(rawAdScript) !== Boolean(rawAdContainer)) {
-  fail("Native advertising configuration is partial; provide both values or neither");
+  if (!adsterra.socialBar.invokeSrc.startsWith("https://")) fail("Adsterra social bar script must be an HTTPS URL");
 }
 
 if (siteConfig.readyForLaunch) {
