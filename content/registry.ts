@@ -6,6 +6,7 @@ export const allPages: SeoPageDefinition[] = [...corePages, ...legalPages];
 export const enabledPages = allPages.filter((page) => page.enabled);
 export const enabledCorePages = corePages.filter((page) => page.enabled);
 export const visibleCorePages = enabledCorePages.filter((page) => page.navVisible);
+export const globalCorePages = enabledCorePages.filter((page) => page.navVisible || page.globalVisible);
 export const enabledLegalPages = legalPages.filter((page) => page.enabled);
 
 export function getPageBySlug(slug: string) {

@@ -1037,6 +1037,13 @@ const pages = [
           "After the match, note which purchases felt mandatory and which ones never left your inventory in a useful way. Trim the dead weight. Over time your default kits become cheaper and stronger without any fictional DPS spreadsheet.",
           "When a community server advertises a cash bonus, you can experiment more freely, but still practice a disciplined kit you could afford on a standard economy. That keeps your fundamentals transferable.",
         ],
+        links: [
+          {
+            label: "See the WARDOGS Best Attachments Guide",
+            slug: "wardogs-best-attachments",
+            description: "Choose optics, grips and muzzles around the lane and role you are actually playing.",
+          },
+        ],
       },
     ],
     faq: [
@@ -1151,6 +1158,11 @@ const pages = [
             slug: "wardogs-mortar-calculator",
             description: "Support fire missions once your FOB loop is online.",
           },
+          {
+            label: "WARDOGS Support XP Guide",
+            slug: "wardogs-support-xp",
+            description: "Use a dedicated Support progression plan for logistics, revives and squad sustain.",
+          },
         ],
       },
       {
@@ -1162,6 +1174,13 @@ const pages = [
           "If your WARDOGS leveling guide goal is Recon XP, prioritize spotting, early warning and shaping fights rather than isolated sniper duels. Call vehicle routes, helicopter inbound paths and undefended flanks while your squad still has time to react. Information that arrives after the wipe does not help.",
           "Use the WARDOGS map to choose ridges and compounds with an exit. Recon players who never relocate become mortar bait. Share pins that distinguish “enemy seen” from “push now,” and stay on voice long enough to confirm the squad understood the threat.",
           "Recon still benefits from teamplay rewards. A spot that enables a zone capture or saves a logistics run is progression-relevant even if you never top the kill list. Measure your night by useful calls and survived rotations.",
+        ],
+        links: [
+          {
+            label: "WARDOGS Recon XP Guide",
+            slug: "wardogs-recon-xp",
+            description: "Follow a Recon-focused route built around timely information and clean rotations.",
+          },
         ],
       },
       {
@@ -1410,6 +1429,515 @@ const pages = [
     screenshots: [],
     relatedSlugs: ["wardogs-servers", "wardogs-best-settings", "wardogs-helicopter-controls"],
     densityTargets: [{ term: "wardogs error codes", min: 1.5, max: 3.5 }],
+    lastReviewed: LAST,
+  },
+  {
+    enabled: true,
+    slug: "wardogs-recon-xp",
+    pageType: "guide",
+    navLabel: "Recon XP",
+    title: "WARDOGS Recon XP Guide – Level Recon Fast",
+    description:
+      "Learn how to earn Recon XP in WARDOGS, level Recon faster, prioritize useful actions, and avoid common progression mistakes.",
+    keywords: ["wardogs recon xp", "wardogs recon leveling", "wardogs recon progression", "wardogs fast recon xp"],
+    primaryKeyword: "wardogs recon xp",
+    secondaryKeywords: [
+      "wardogs recon leveling",
+      "wardogs recon xp guide",
+      "how to level recon fast wardogs",
+      "wardogs fast recon xp",
+      "wardogs recon progression",
+    ],
+    searchIntent:
+      "Players want practical, non-exploit advice for earning WARDOGS Recon XP and progressing through useful Recon play.",
+    priority: "P0",
+    navVisible: false,
+    globalVisible: true,
+    parentSlug: "wardogs-leveling-guide",
+    wordCountTarget: 1200,
+    sourceNotes: [
+      "Steam describes a teamplay-focused progression loop with cash and XP rewards.",
+      "No unverified XP values, multipliers, unlock requirements or XP-per-hour claims.",
+    ],
+    factsStatus: "verified",
+    hero: {
+      eyebrow: "Recon progression guide",
+      heading: "WARDOGS Recon XP and Leveling Guide",
+      lead: "Earn WARDOGS Recon XP by turning observation into useful squad decisions: spot early, call clean routes, survive long enough to update the picture, and move when the fight moves.",
+    },
+    sections: [
+      {
+        id: "how-recon-xp-works-in-wardogs",
+        heading: "How WARDOGS Recon XP Works",
+        intro:
+          "The useful path to Recon XP is not passive hill camping. It is repeated information that changes what your team does next.",
+        paragraphs: [
+          "WARDOGS Recon XP is best approached as a teamplay loop. Take an angle that can see a likely approach, identify what is actually moving through it, and pass the call to teammates before they commit to a bad push. A vehicle warning, a flank call, or a confirmed safe route has value because it helps the squad choose where to spend lives and cash.",
+          "Start each life with one clear information job. You might watch a road into the Control Zone, cover a logistics route, or check a ridge before friendly infantry crosses open ground. Once that job is complete, update your squad and choose the next one. This keeps Recon work tied to the active match instead of becoming a distant kill hunt.",
+          "Exact action rewards can change as Early Access systems evolve, so build habits around outcomes rather than a pretend scorecard. Good Recon play creates earlier decisions, safer rotations and cleaner pushes. Those habits remain useful whether your squad is defending, preparing a counterattack or trying to keep a FOB route alive.",
+        ],
+        links: [
+          {
+            label: "WARDOGS Leveling Guide",
+            slug: "wardogs-leveling-guide",
+            description: "See how Recon focus fits with the wider XP and role-progression loop.",
+          },
+        ],
+      },
+      {
+        id: "fastest-ways-to-earn-recon-xp",
+        heading: "Fastest Ways to Earn Recon XP",
+        intro:
+          "The fastest Recon progression comes from being relevant to the next fight, not from chasing the longest possible sightline.",
+        paragraphs: [
+          "Arrive ahead of the squad’s intended movement and answer one question they cannot answer safely themselves: which entrance is watched, where is the vehicle route, or whether the next compound has an enemy hold. Give the call in short, usable language, then mark the direction or landmark if your team uses pins. A call that can be acted on immediately is more valuable than a long narration after the opportunity has passed.",
+          "Keep an exit route. Recon players often lose momentum by staying on the same rooftop or ridge until the enemy notices them. After you have delivered the first useful read, shift to an adjacent angle or regroup with the squad. Survival lets you continue reporting changes, while a predictable position turns the role into an easy trade.",
+          "Work with the squad’s timing. Watch the road before logistics moves, check the flank before the zone push, and stay available after the capture when a counterattack is likely. Recon XP follows a better match contribution when your observations are attached to those moments rather than to isolated shots.",
+        ],
+      },
+      {
+        id: "best-recon-actions-for-consistent-xp",
+        heading: "Best Recon Actions for Consistent XP",
+        intro:
+          "Consistency comes from repeating a small set of useful actions under pressure.",
+        paragraphs: [
+          "Prioritize early warning. Watch routes that lead into the active objective and report movement before it reaches your team’s last line. If you see a vehicle, say where it is headed; if you see infantry, say whether it is pushing, holding, or rotating. Direction and timing make a sighting useful.",
+          "Use the map as part of the role. Before taking overwatch, look for the next Control Zone approach, a protected fallback and the route your own logistics players need. A position with a good first view but no way to relocate is usually a short-lived choice. Map awareness keeps your Recon progression connected to the whole team rather than one window.",
+          "Confirm changes instead of repeating stale information. Once a flank goes quiet, check whether the threat moved, died, or simply took a different path. A short update clears uncertainty for the squad and gives you a reason to reposition instead of staring at an empty lane.",
+        ],
+        links: [
+          {
+            label: "Open the WARDOGS Map",
+            slug: "wardogs-map",
+            description: "Plan overwatch, fallback routes and the next objective approach before you commit to an angle.",
+          },
+        ],
+      },
+      {
+        id: "how-to-level-recon-faster",
+        heading: "How to Level Recon Faster",
+        intro:
+          "Give every Recon session a simple sequence: observe, communicate, relocate, then observe again.",
+        paragraphs: [
+          "At the start of a round, tell the squad which lane you will watch and what call they should expect from you. That prevents duplicate angles and makes it easier for a leader to send you where information is missing. A Recon player who is integrated into the plan gets more chances to make useful calls than one who quietly wanders toward a distant hill.",
+          "Buy for repeatability. Choose a kit that supports your actual distance, leaves you able to move, and does not drain the cash you need for a later role change. The ideal purchase is not a universal build; it is the one that lets you survive the angle, help on the rotate, and remain useful when the zone shifts.",
+          "When the squad pushes, close the distance enough to keep reporting. The role does not end after the first entry. Watch the next exterior lane, protect a revive, or scout the route to the next hold. That continuity is a more reliable way to level Recon fast than resetting to a far-off perch after every fight.",
+        ],
+        links: [
+          {
+            label: "WARDOGS Best Loadouts",
+            slug: "wardogs-best-loadouts",
+            description: "Build a repeatable Recon kit around mobility, information and the role your squad needs.",
+          },
+          {
+            label: "WARDOGS Support XP Guide",
+            slug: "wardogs-support-xp",
+            description: "Coordinate Recon calls with the Support players keeping routes and teammates alive.",
+          },
+        ],
+      },
+      {
+        id: "recon-progression-priorities",
+        heading: "Recon Progression Priorities",
+        intro:
+          "A strong Recon player makes the team harder to surprise and easier to coordinate.",
+        paragraphs: [
+          "First, prioritize information that is perishable: an incoming vehicle, a fresh flank, an exposed route, or a defending position that can be bypassed. Second, prioritize the information that enables a teammate’s next move. A useful call often gives a destination or a warning, not just an enemy count.",
+          "Third, preserve your own uptime. Avoid taking fights that reveal your position when the squad needs your eyes more than another long-range duel. If the engagement is necessary, take it with a relocation plan and tell the team when your coverage will be offline. Recon is most valuable when its information stays current.",
+          "Finally, review the end of each life. Ask whether your calls changed a rotation, saved a supply run or opened a push. That is a better practice metric than a single lucky elimination, and it naturally improves WARDOGS Recon XP over a full session.",
+        ],
+      },
+      {
+        id: "common-recon-xp-mistakes",
+        heading: "Common Recon XP Mistakes",
+        intro:
+          "Most slow Recon progression comes from good intentions that never reach the squad.",
+        paragraphs: [
+          "Do not treat spotting as an end in itself. A vague call without direction, timing or follow-up makes teammates guess. Do not stay silent after the enemy changes route, either; stale information can pull your team into the exact trap you first helped identify.",
+          "Avoid static pride. Holding the same angle for too long may feel safe, but it stops producing information once the enemy has adapted. Move after a useful report, vary your lines of sight and keep a route back to friendly players. The goal is steady contribution, not a personal tower-defense match.",
+          "Do not force an exploit-style grind. Reliable Recon XP comes from meaningful participation in live fights and a squad that can use your calls. If the server is empty or the team is not communicating, change your approach or find a coordinated group instead of repeating low-value peeks.",
+        ],
+      },
+    ],
+    faq: [
+      {
+        question: "How do I get Recon XP in WARDOGS?",
+        answer:
+          "Play Recon around information your team can act on: early warnings, route checks, timely spotting and calls that support objective pushes, defenses or logistics movement.",
+      },
+      {
+        question: "What is the fastest way to level Recon in WARDOGS?",
+        answer:
+          "Stay attached to the active squad plan. Observe before a push, communicate a clear call, relocate when the lane changes and keep covering the next decision instead of camping one angle.",
+      },
+      {
+        question: "Should Recon players only use long-range positions?",
+        answer:
+          "No. Use the distance that lets you see the relevant route and still update or regroup with teammates. A closer, mobile angle can be more useful than a distant sightline with no follow-up.",
+      },
+      {
+        question: "Do kills matter more than spotting for Recon progression?",
+        answer:
+          "A useful role balances both, but information that enables the squad is the core of Recon play. Prioritize the calls and positions that improve the team’s next move.",
+      },
+      {
+        question: "How can I avoid wasting a Recon life?",
+        answer:
+          "Take an angle with a fallback, announce the lane you are watching, move after you are discovered, and avoid fights that leave the squad without current information.",
+      },
+    ],
+    screenshots: [],
+    relatedSlugs: ["wardogs-support-xp", "wardogs-leveling-guide", "wardogs-best-loadouts", "wardogs-map"],
+    densityTargets: [{ term: "wardogs recon xp", min: 1.5, max: 3.5 }],
+    lastReviewed: LAST,
+  },
+  {
+    enabled: true,
+    slug: "wardogs-support-xp",
+    pageType: "guide",
+    navLabel: "Support XP",
+    title: "WARDOGS Support XP Guide – Level Support Fast",
+    description:
+      "Learn how to earn Support XP in WARDOGS, level Support faster, focus on useful team actions, and avoid inefficient progression habits.",
+    keywords: ["wardogs support xp", "wardogs support leveling", "wardogs support exp", "wardogs level support fast"],
+    primaryKeyword: "wardogs support xp",
+    secondaryKeywords: [
+      "wardogs support leveling",
+      "wardogs support xp guide",
+      "best way to level support wardogs",
+      "wardogs support exp",
+      "how to farm support xp wardogs",
+      "wardogs level support fast",
+    ],
+    searchIntent:
+      "Players want practical, non-exploit advice for earning WARDOGS Support XP through useful team actions and efficient role play.",
+    priority: "P0",
+    navVisible: false,
+    globalVisible: true,
+    parentSlug: "wardogs-leveling-guide",
+    wordCountTarget: 1200,
+    sourceNotes: [
+      "Steam describes a teamplay-focused progression loop with cash and XP rewards.",
+      "No unverified XP values, multipliers, unlock requirements or XP-per-hour claims.",
+    ],
+    factsStatus: "verified",
+    hero: {
+      eyebrow: "Support progression guide",
+      heading: "WARDOGS Support XP and Leveling Guide",
+      lead: "Earn WARDOGS Support XP by keeping the squad moving: support the active objective, deliver what the team needs, help teammates recover, and make every trip serve the next fight.",
+    },
+    sections: [
+      {
+        id: "how-support-xp-works-in-wardogs",
+        heading: "How WARDOGS Support XP Works",
+        intro:
+          "Support progression rewards the player who keeps a team functional when the fight becomes expensive.",
+        paragraphs: [
+          "WARDOGS Support XP is best earned through actions that keep teammates supplied, alive, positioned and able to contest the objective. Think of the role as a chain: a squad needs a safe route, useful equipment, a place to regroup and people who can stay in the fight. Your job is to strengthen the weak link that is slowing the next push.",
+          "Open each life by asking what the team is missing. It might be a supply run, help setting up or defending a forward position, a revive-capable teammate near the point, or a player who can stay with a logistics move. Choosing one real need is more effective than hovering behind the line and hoping support actions appear.",
+          "The exact rewards and role details can move with updates, so this guide avoids invented XP values and fixed hourly claims. The durable route is simple: make practical contributions to the active fight, stay close enough for teammates to use your help, and repeat the actions that keep the squad’s momentum alive.",
+        ],
+        links: [
+          {
+            label: "WARDOGS Leveling Guide",
+            slug: "wardogs-leveling-guide",
+            description: "Place Support progression inside the wider XP and teamplay loop.",
+          },
+        ],
+      },
+      {
+        id: "fastest-ways-to-earn-support-xp",
+        heading: "Fastest Ways to Earn Support XP",
+        intro:
+          "The fastest Support progression is an efficient loop of useful work, not a series of long solo detours.",
+        paragraphs: [
+          "Follow the active objective. A supply run or support task has more impact when it arrives before the push needs it, not after the fight has already moved. Check the map, choose the safer route, and tell the squad when you are on the way so they can plan around the timing.",
+          "Stay within reach of the people you are supporting. A support player positioned too far from the action cannot respond to a revive, a defense problem or a sudden shortage. You do not need to lead every entry, but you should be close enough to reinforce a successful push and leave before the position collapses.",
+          "Use a repeatable route rather than a heroic one. A short run that consistently reaches the team, followed by a quick return or reposition, creates more useful work across a match than a risky cross-map trip that ends with a lost vehicle or an isolated death.",
+        ],
+      },
+      {
+        id: "best-support-actions-for-reliable-xp",
+        heading: "Best Support Actions for Reliable XP",
+        intro:
+          "Reliable Support XP comes from actions that solve a clear squad problem.",
+        paragraphs: [
+          "Prioritize logistics that arrive. Carry supplies or equipment only when there is a receiver and a plan for them; otherwise, your route is just a long walk with expensive cargo. Coordinate with builders, defenders and squad leaders so a delivery becomes a stronger position instead of an unattended pile of resources.",
+          "Prioritize recovery near a live fight. Help teammates return to useful positions, defend the people doing the work and call when the area is too dangerous to continue. Support is not just reacting after a disaster; it is reducing the number of times the squad has to rebuild from one.",
+          "Prioritize objective timing. If your team is preparing to hold or retake a Control Zone, shift support toward that effort rather than continuing an old task out of habit. The best support actions are the ones that give the team one more chance to keep pressure where it matters.",
+        ],
+        links: [
+          {
+            label: "WARDOGS Servers Guide",
+            slug: "wardogs-servers",
+            description: "Find a stable match where coordinated logistics and teamplay can actually develop.",
+          },
+        ],
+      },
+      {
+        id: "how-to-level-support-faster",
+        heading: "How to Level Support Faster",
+        intro:
+          "Use a clear order of operations: identify the need, deliver safely, stay for the handoff, then move to the next need.",
+        paragraphs: [
+          "Before leaving base or a safe position, decide who benefits from the trip and where the handoff happens. That small check prevents wasted purchases and makes it easier to recover if the route changes. Support players level faster when their actions are tied to a teammate, a location and a moment in the round.",
+          "Keep a kit you can repurchase. The role only helps when you can return after a bad life, so avoid spending everything on extras that do not improve your route, survival or ability to help the squad. A modest, repeatable Support setup gives you more useful decisions over a session than a single expensive attempt.",
+          "Pair up when possible. One player can watch the route or cover a handoff while the other completes the support task. That coordination reduces dead time, makes a stalled route easier to adjust and turns Support XP into shared match momentum rather than lone grinding.",
+        ],
+        links: [
+          {
+            label: "WARDOGS Best Loadouts",
+            slug: "wardogs-best-loadouts",
+            description: "Build a repurchase-friendly kit for logistics, recovery and objective support.",
+          },
+          {
+            label: "WARDOGS Recon XP Guide",
+            slug: "wardogs-recon-xp",
+            description: "Use Recon calls to make supply routes and support moves safer.",
+          },
+        ],
+      },
+      {
+        id: "support-progression-priorities",
+        heading: "Support Progression Priorities",
+        intro:
+          "The best Support players work from the team’s next bottleneck backward.",
+        paragraphs: [
+          "First, support the active objective: the team that cannot reach, hold or recover the current fight will not benefit from distant preparation. Second, protect repeatable routes and positions. A sustainable support loop is more valuable than a one-time delivery that leaves no path back.",
+          "Third, communicate the state of the job. Tell the squad when supplies are moving, when a route is unsafe, when a teammate needs cover or when the task is complete. Clear updates let the next player make a useful decision instead of duplicating your work.",
+          "Finally, stay flexible. Switch from a delivery to a defensive role, a recovery task or a new route when the match changes. Support progression improves when your work follows the team’s need rather than a rigid checklist from the first spawn.",
+        ],
+      },
+      {
+        id: "common-support-xp-mistakes",
+        heading: "Common Support XP Mistakes",
+        intro:
+          "Slow Support leveling usually means effort is going somewhere the squad cannot use.",
+        paragraphs: [
+          "Do not run logistics without a destination, a receiver or a fallback. A good route can still fail, but a route without a handoff was never a support plan. Check the map and communicate before you commit resources.",
+          "Do not remain behind the fight for too long. Support work that never reaches the active objective becomes invisible to the match. Move with the team’s timing, reinforce the successful push, and back out when the position is lost instead of feeding a broken route.",
+          "Avoid exploit hunting and fixed XP-per-hour promises. The durable way to level Support is reliable teamplay: keep a useful kit, make safe deliveries, help people stay in the fight and change tasks when the squad’s priorities change.",
+        ],
+      },
+    ],
+    faq: [
+      {
+        question: "How do I get Support XP in WARDOGS?",
+        answer:
+          "Focus on team actions that keep the active fight working: useful logistics, recovery, defense, revives and objective support that arrives when teammates need it.",
+      },
+      {
+        question: "What is the fastest way to level Support in WARDOGS?",
+        answer:
+          "Run repeatable support loops tied to the objective. Identify a real need, use a safe route, complete the handoff and move to the next need instead of taking disconnected solo trips.",
+      },
+      {
+        question: "Should Support players stay far behind the front line?",
+        answer:
+          "No. Stay safe, but remain close enough to reinforce the objective, help teammates recover and adjust when the squad’s route changes.",
+      },
+      {
+        question: "How do I make logistics runs more useful?",
+        answer:
+          "Confirm who needs the delivery, where it will be handed off and what route is safest. Communicate the move so the squad can protect or use it.",
+      },
+      {
+        question: "Can I level Support without exploits?",
+        answer:
+          "Yes. A coordinated squad creates constant useful Support work through logistics, recovery, defense and objective timing; those habits remain valuable beyond any short-lived shortcut.",
+      },
+    ],
+    screenshots: [],
+    relatedSlugs: ["wardogs-recon-xp", "wardogs-leveling-guide", "wardogs-best-loadouts", "wardogs-servers"],
+    densityTargets: [{ term: "wardogs support xp", min: 1.5, max: 3.5 }],
+    lastReviewed: LAST,
+  },
+  {
+    enabled: true,
+    slug: "wardogs-best-attachments",
+    pageType: "guide",
+    navLabel: "Attachments",
+    title: "WARDOGS Best Attachments – Optics, Grips & Muzzles",
+    description:
+      "Find the best WARDOGS attachments for common weapons and roles, including optics, grips, muzzles and practical build tradeoffs.",
+    keywords: ["wardogs best attachments", "wardogs attachments", "wardogs weapon attachments", "wardogs best optic", "wardogs best grip"],
+    primaryKeyword: "wardogs best attachments",
+    secondaryKeywords: [
+      "wardogs attachments",
+      "best attachments wardogs",
+      "wardogs weapon attachments",
+      "wardogs best optic",
+      "wardogs best grip",
+      "wardogs best muzzle",
+      "wardogs weapon builds",
+    ],
+    searchIntent:
+      "Players want practical WARDOGS attachment choices by range, weapon role and playstyle without invented stat charts or a single fake meta build.",
+    priority: "P1",
+    navVisible: false,
+    globalVisible: true,
+    parentSlug: "wardogs-best-loadouts",
+    wordCountTarget: 1250,
+    sourceNotes: [
+      "Attachment names, stat values, unlocks and costs are not claimed without a current in-game or official confirmation.",
+      "Advice uses durable qualitative tradeoffs: sight picture, target acquisition, control, mobility and engagement distance.",
+    ],
+    factsStatus: "verified",
+    hero: {
+      eyebrow: "Weapon setup guide",
+      heading: "WARDOGS Best Attachments Guide",
+      lead: "The best WARDOGS attachments match your weapon, distance and role. Start with a clear sight picture, add only what helps your lane, and keep enough flexibility for the next life.",
+    },
+    sections: [
+      {
+        id: "best-wardogs-attachments-at-a-glance",
+        heading: "Best WARDOGS Attachments at a Glance",
+        intro:
+          "There is no one attachment package that is best for every gun and every objective. Build for the fights you expect to take.",
+        table: {
+          caption: "Attachment choice by situation",
+          columns: ["Situation", "Prioritize", "Tradeoff to watch"],
+          rows: [
+            ["Close objective pushes", "Fast target acquisition and a clean close-range sight picture", "Do not add weight or clutter that slows rapid transitions"],
+            ["Mixed lanes and compounds", "A flexible optic and handling that stays useful indoors", "Avoid overbuilding for one long sightline"],
+            ["Long approach or overwatch", "Clear target identification and controlled follow-up shots", "Keep a route and a plan for closer fights"],
+            ["Support or logistics defense", "Simple, repeatable setup you can use under pressure", "Do not spend the whole kit budget on a niche gun build"],
+          ],
+        },
+        paragraphs: [
+          "WARDOGS best attachments begin with the question, “Where will this gun be used?” An optic that helps you find targets across an open approach may be awkward inside a Control Zone building. A setup that feels quick during an entry can be harder to place precisely from a ridge. Pick the job first, then choose attachments that make that job easier.",
+          "Use the in-game attachment menu as the final check for availability on your weapon. Rather than copying a universal list, compare the choices in front of you and keep the build focused. A lean setup with a clear purpose is easier to repurchase, easier to learn and easier to adjust when the squad changes plans.",
+        ],
+        links: [
+          {
+            label: "WARDOGS Best Loadouts",
+            slug: "wardogs-best-loadouts",
+            description: "Put attachment choices inside a complete, repurchase-friendly role build.",
+          },
+        ],
+      },
+      {
+        id: "best-optics",
+        heading: "Best Optics for WARDOGS",
+        intro:
+          "Choose an optic for the distance at which you must first identify and engage a target.",
+        paragraphs: [
+          "For close objective work, favor an optic or sight picture that lets you acquire targets quickly without blocking the doors, corners and movement cues around you. The key test is practical: can you transition from one nearby threat to the next without losing the space around the reticle? If not, the setup is too narrow for your lane.",
+          "For mixed terrain, a flexible sight picture is often more valuable than an extreme magnification choice. Most matches move between open approaches and hard cover, so a setup that stays usable when the range closes can save you from rebuilding after every rotation.",
+          "For long observation or a deliberate overwatch role, prioritize target identification and a stable view—but keep the weapon’s role honest. If your squad is about to breach a compact objective, a long-range view may be less useful than a simple, fast option you can carry into the next phase.",
+        ],
+      },
+      {
+        id: "best-grips-and-control-choices",
+        heading: "Best Grips and Control Choices",
+        intro:
+          "A grip or control-focused attachment is worth taking only when it improves the shots you actually miss.",
+        paragraphs: [
+          "If follow-up shots drift during the sustained fights you commonly take, choose the option that makes the weapon feel easier to hold on target. If the problem is finding the target or moving between cover, a control attachment alone may not solve it. Diagnose the lane before adding parts.",
+          "Keep the role in view. A player holding a stable exterior line may value a composed firing feel, while a player moving through rooms may care more about a setup that stays comfortable during quick transitions. Neither choice is universally best; the better choice is the one that supports the role for that life.",
+          "Test one change at a time. Use the same weapon on a comparable route, then ask whether the attachment made it easier to track, recover between shots or maintain awareness. Small, repeatable tests beat copying a build you never adapt to your own play.",
+        ],
+      },
+      {
+        id: "best-muzzles-and-barrel-choices",
+        heading: "Best Muzzles and Barrel Choices",
+        intro:
+          "Muzzle and barrel choices should support your intended engagement pattern, not turn every weapon into the same build.",
+        paragraphs: [
+          "When you expect repeated mid-range exchanges, prioritize a configuration that feels manageable through a full burst or several quick shots. When the match is mostly close entries, make sure a muzzle choice does not make the gun feel clumsy for the distances that decide the room.",
+          "Avoid treating a single community recommendation as permanent. Weapon availability and balance can move, and different guns have different starting behavior. The useful rule is to choose the attachment that makes the gun more predictable for its current job, then reassess after a patch or a change in squad role.",
+          "If a build begins to feel over-specialized, remove the least useful piece first. A simpler weapon that works on both the approach and the objective is often a stronger match choice than a perfect setup for a sightline you only see once.",
+        ],
+      },
+      {
+        id: "attachments-by-playstyle",
+        heading: "Attachments by Playstyle",
+        intro:
+          "Use attachment choices to reinforce the way you contribute to the team.",
+        paragraphs: [
+          "Frontline players should build for the transition from the approach to the objective: quick reads, clean corners and enough control to stay useful when several targets appear. Avoid giving up all close-range awareness just to win a distant exchange before the push starts.",
+          "Recon-oriented players should favor clarity for the lanes they are assigned to, while preserving the ability to relocate. A setup that supports a good call or a protected retreat is more valuable than one designed only for a highlight shot. Recon also benefits from keeping the weapon simple enough to rejoin the squad after the first observation.",
+          "Support, builder and logistics players should choose reliable, repeatable attachments that suit self-defense around the route or position they are protecting. Their primary job may not be to chase long-range duels, so keeping the setup practical and affordable leaves room for the rest of the team’s needs.",
+        ],
+        links: [
+          {
+            label: "WARDOGS Leveling Guide",
+            slug: "wardogs-leveling-guide",
+            description: "Match a role-focused weapon setup with Support and Recon progression priorities.",
+          },
+        ],
+      },
+      {
+        id: "long-range-vs-close-range-attachment-choices",
+        heading: "Long-Range vs Close-Range Attachment Choices",
+        intro:
+          "Range is the deciding tradeoff: improve the first shot at your expected distance without making the next phase of the fight unplayable.",
+        paragraphs: [
+          "Long-range choices should make targets easier to read and follow at the distances your squad is actually covering. They work best when you have room to observe, a lane worth holding and a plan to move when the objective shifts. Do not carry a specialized overwatch setup into a close push without considering the cost to target acquisition and awareness.",
+          "Close-range choices should help you process doors, windows and sudden movement quickly. They matter most when the objective turns into a chain of short, contested fights. If you will also cross open ground, choose a compromise that remains usable outside instead of optimizing exclusively for the room.",
+          "For most mixed matches, a balanced setup is the safest starting point. Play a few lives with the same general configuration, note where it breaks down, and make the next change around that specific problem. That is how WARDOGS attachments become a practical tool rather than a permanent checklist.",
+        ],
+      },
+      {
+        id: "how-attachments-fit-into-a-full-loadout",
+        heading: "How Attachments Fit Into a Full Loadout",
+        intro:
+          "Attachments complete a loadout; they do not replace a plan for the role, route and next purchase.",
+        paragraphs: [
+          "Start with the role your team needs, then select the primary weapon and attachment package that suits its usual distance. Leave enough flexibility for utility, survival and the next life. A fully decorated weapon does not make a complete loadout if it leaves the squad without the tools or cash needed for the objective.",
+          "Revisit attachments whenever your role changes. A player who was watching a long route may need a more flexible setup after becoming the spare rifle in a building push. The best WARDOGS attachments are the ones you can justify in the current match, not the ones you saved from an old situation.",
+          "Keep one straightforward default build and one alternate build for a different range or role. This makes the buy decision faster and helps you learn exactly what each change does for your own aim and movement without relying on unverified stat sheets.",
+        ],
+        links: [
+          {
+            label: "WARDOGS Best Settings",
+            slug: "wardogs-best-settings",
+            description: "Tune visibility and controls so your attachment choices are easier to evaluate in real fights.",
+          },
+        ],
+      },
+      {
+        id: "common-attachment-mistakes",
+        heading: "Common Attachment Mistakes",
+        intro:
+          "The biggest attachment mistake is adding parts without knowing what problem they solve.",
+        paragraphs: [
+          "Do not build around a single “best” answer for every weapon. Your role, range, map route and current squad composition all change what is useful. A simple, adaptable configuration usually produces better decisions than a rigid build copied from someone else’s preferred lane.",
+          "Do not judge a choice after one unlucky gunfight. Test it across comparable situations and look for a consistent effect on sight picture, comfort and the distances you can cover. If it does not solve a repeat problem, remove it and preserve a cleaner setup.",
+          "Finally, do not let attachments consume the whole buying decision. A weapon build should serve the squad plan alongside utility, movement and the ability to repurchase. The best attachment is rarely worth more than staying useful for the next objective.",
+        ],
+      },
+    ],
+    faq: [
+      {
+        question: "What are the best attachments in WARDOGS?",
+        answer:
+          "The best choice depends on the weapon, expected range and role. Start with a clear sight picture, add control only when it solves a real problem, and keep the build usable for the next phase of the match.",
+      },
+      {
+        question: "What is the best optic for WARDOGS?",
+        answer:
+          "Choose an optic for the distance where you need to identify targets first. Close objective work favors fast awareness, while long lanes need a view that makes target identification easier without trapping you in one role.",
+      },
+      {
+        question: "Should I use the same attachments on every weapon?",
+        answer:
+          "No. Different weapons and roles create different needs. Use one simple default as a baseline, then create an alternate setup for a distinct range or job.",
+      },
+      {
+        question: "How do attachments fit into a WARDOGS loadout?",
+        answer:
+          "Attachments should reinforce the role you bought the weapon for while leaving room for utility, movement and a repurchase-friendly overall kit.",
+      },
+      {
+        question: "Should I copy a single best attachment build?",
+        answer:
+          "Use other builds as ideas, then test them in the lanes you actually play. A configuration that works for a long overwatch route may be poor for a close Control Zone push.",
+      },
+    ],
+    screenshots: [],
+    relatedSlugs: ["wardogs-best-loadouts", "wardogs-best-settings", "wardogs-leveling-guide"],
+    densityTargets: [{ term: "wardogs best attachments", min: 1.5, max: 3.5 }],
     lastReviewed: LAST,
   },
 ];

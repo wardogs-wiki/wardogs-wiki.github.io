@@ -183,6 +183,8 @@ export interface SeoPageDefinition {
   searchIntent: string;
   priority: "P0" | "P1" | "P2";
   navVisible: boolean;
+  /** Include in shared header/footer without adding a homepage quick-access card. */
+  globalVisible?: boolean;
   parentSlug?: string | null;
   wordCountTarget?: number;
   sourceNotes?: string[];

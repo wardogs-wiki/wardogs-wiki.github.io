@@ -97,7 +97,7 @@ const homeTargets = new Set([
   ...linksFromSections(homePage.sections).map((link) => link.slug),
 ]);
 for (const page of enabledCorePages) {
-  if ((page.priority === "P0" || page.priority === "P1") && !homeTargets.has(page.slug)) {
+  if (page.navVisible && (page.priority === "P0" || page.priority === "P1") && !homeTargets.has(page.slug)) {
     fail(`home: missing crawlable link to ${page.priority} page ${page.slug}`);
   }
   const inbound = enabledPages.some((source) =>

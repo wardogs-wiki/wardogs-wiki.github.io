@@ -6,7 +6,7 @@ import { SiteFooter } from "@/components/site/site-footer";
 import { SiteHeader } from "@/components/site/site-header";
 import { siteConfig } from "@/config/site";
 import { themes } from "@/config/themes";
-import { enabledLegalPages, visibleCorePages } from "@/content/registry";
+import { enabledLegalPages, globalCorePages } from "@/content/registry";
 import { rootMetadata } from "@/lib/seo";
 import "./globals.css";
 
@@ -20,7 +20,7 @@ const barlow = Barlow({
 
 export const metadata = rootMetadata();
 
-const navLinks = visibleCorePages.map((page) => ({ label: page.navLabel, slug: page.slug }));
+const navLinks = globalCorePages.map((page) => ({ label: page.navLabel, slug: page.slug }));
 const legalLinks = enabledLegalPages.map((page) => ({ label: page.navLabel, slug: page.slug }));
 
 export default function RootLayout({ children }: Readonly<{ children: ReactNode }>) {
