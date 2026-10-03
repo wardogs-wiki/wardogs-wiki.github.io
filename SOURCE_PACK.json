@@ -1,0 +1,19 @@
+{
+  "gameName": "WARDOGS",
+  "sources": [
+    {
+      "id": "steam_1867240",
+      "title": "WARDOGS Steam Store Page",
+      "url": "https://store.steampowered.com/app/1867240/WARDOGS/",
+      "type": "official",
+      "notes": "Developer BULKHEAD, publisher Team17, Early Access 10 Sep 2026, core gameplay and system requirements."
+    },
+    {
+      "id": "steam_news_hub",
+      "title": "WARDOGS Steam News Hub",
+      "url": "https://store.steampowered.com/newshub/app/1867240",
+      "type": "official",
+      "notes": "Patch and status announcements."
+    }
+  ]
+}

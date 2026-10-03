@@ -1,0 +1,19 @@
+{
+  "generatedAt": "2026-09-21",
+  "passed": true,
+  "readyForLaunch": true,
+  "commands": {
+    "typecheck": "pass",
+    "lint": "pass",
+    "validate": "pass",
+    "build:site": "pass",
+    "audit:seo": "pass"
+  },
+  "notes": [
+    "Cleared remaining grammar residues: your the / this the / the this / duplicate leveling fragment.",
+    "Map/Mortar copy no longer implies website coordinate picking, pin drops, or auto-transfer into the calculator.",
+    "Mortar terminology standardized to grid/coordinate distance + bearing; 700m kept as community-reported estimate.",
+    "manifest icon MIME corrected to image/webp for wardogs-logo.webp.",
+    "Domain confirmed: https://wardogs-wiki.github.io with empty basePath and readyForLaunch=true."
+  ]
+}

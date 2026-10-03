@@ -1,0 +1,831 @@
+{
+  "gameName": "WARDOGS",
+  "pages": [
+    {
+      "slug": "",
+      "lead": "Practical WARDOGS wiki for maps, mortar calculator, settings, helicopters, servers, loadouts, leveling and error fixes.",
+      "sections": [
+        {
+          "heading": "WARDOGS Tools",
+          "paragraphs": [
+            "Most players land here looking for a WARDOGS wiki that does more than summarize Steam copy. The map and mortar tools below are the fastest way to turn a chaotic 100-player match into a clearer plan for your squad.",
+            "Bookmark both tools. Between rounds, check the map for zone geography and approach routes. Mid-fight, keep the mortar calculator ready so artillery support stays accurate when teammates call distances under pressure."
+          ],
+          "usedSourceIds": [
+            "steam_1867240"
+          ]
+        },
+        {
+          "heading": "WARDOGS Gameplay Guides",
+          "paragraphs": [
+            "WARDOGS rewards teamwork with cash for actions such as revives, transport, and objective control. Guides here translate that loop into practical habits rather than empty theory.",
+            "Start with loadouts if you keep dying broke, use leveling help if progression feels opaque, and open helicopter controls when flight is the weak link in your squad logistics."
+          ],
+          "usedSourceIds": [
+            "steam_1867240"
+          ]
+        },
+        {
+          "heading": "WARDOGS PC & Server Help",
+          "paragraphs": [
+            "Tune settings first if the game feels heavy on your PC. Check servers when queues, regions, or connection quality are the bottleneck. Use the error-code page when a specific message blocks launch or mid-match stability.",
+            "These pages stay practical and avoid inventing live player counts or unverified patch claims. Fix what you can control: graphics, network choices, and known error paths."
+          ],
+          "usedSourceIds": [
+            "steam_1867240"
+          ]
+        },
+        {
+          "heading": "What Is WARDOGS?",
+          "paragraphs": [
+            "Up to one hundred players split across three teams fight over a Control Zone inspired by king-of-the-hill scoring. Randomized roughly 2x2 km Control Zones sit inside larger maps set in derelict industrial mountains of Eastern Europe. The team with the most players inside the zone earns points, and the first team to 100 points wins.",
+            "Every player begins with $10,000 and buys weapons, gear, utility, and vehicles each life. Teamplay actions—revives, transport, objective work—reward cash, and cash persists from match to match. The sandbox mixes gunplay, vehicles, building, and destruction with proximity voice chat.",
+            "WARDOGS entered Steam Early Access on September 10, 2026. The Early Access build is fully playable and centered on the 100-player, three-team Control Zone loop, with ongoing balance, content, and systems work planned across roughly one to two years of Early Access according to the developer notes on Steam."
+          ],
+          "usedSourceIds": [
+            "steam_1867240"
+          ]
+        },
+        {
+          "heading": "Start Here",
+          "paragraphs": [
+            "New players should open the map and best-settings pages first, then skim loadouts and leveling so cash and XP make sense before the tenth death. Support players should keep the mortar calculator and helicopter controls close. Anyone stuck on joins or crashes should jump straight to servers and error codes.",
+            "Every approved player page is listed below so search engines and humans can crawl the full set from the homepage. Descriptions stay short on purpose—open the page when you need the full walkthrough."
+          ],
+          "usedSourceIds": [
+            "steam_1867240"
+          ]
+        },
+        {
+          "heading": "Latest WARDOGS Player Questions",
+          "paragraphs": [
+            "Map questions usually mean “where is the zone and how do we approach.” Mortar questions mean “what numbers do I dial for this distance.” Server questions mean “why can I not join a stable match.” Settings questions mean “how do I keep FPS readable when everything is exploding.”",
+            "Loadout questions are about spending the $10,000 start and the cash you keep between matches. XP questions are about whether support actions count. Error questions are about matching the exact message to a fix path. Use the linked pages below the earlier sections for full write-ups; this section is the triage layer.",
+            "If your question is about current queue times, exact seasonal rewards, or a brand-new hotfix number, check Steam news and official channels first. This WARDOGS wiki focuses on durable player systems—map, mortar math, controls, settings, servers, loadouts, leveling, and errors—that stay useful across Early Access updates.",
+            "Quick triage: open the map for zone context and routes; use the mortar calculator for firing data with shared landmarks; start with best settings when FPS drops; work through servers then error codes when joins fail; rebuild spending with best loadouts when you go broke every life; and review leveling when progress feels slow."
+          ],
+          "usedSourceIds": [
+            "steam_1867240"
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "question": "What is this WARDOGS wiki for?",
+          "answer": "This WARDOGS wiki is an independent hub for practical player needs: map tools, a mortar calculator, settings, helicopter controls, servers, loadouts, leveling, and error fixes. It complements the official Steam page instead of replacing it."
+        },
+        {
+          "question": "Is WARDOGS in Early Access?",
+          "answer": "Yes. WARDOGS launched into Steam Early Access on September 10, 2026, developed by BULKHEAD and published by Team17. The Early Access build centers on 100-player, three-team Control Zone matches."
+        },
+        {
+          "question": "How does the Control Zone mode work?",
+          "answer": "Three teams contest a randomized Control Zone. The team with the most players inside the zone earns points, and the first team to reach 100 points wins. Zone location and player tactics change how each match unfolds."
+        },
+        {
+          "question": "Where should new players start on this WARDOGS wiki?",
+          "answer": "Open the WARDOGS map and best-settings pages first, then read best loadouts so your $10,000 starting cash goes further. Add leveling, helicopters, servers, or error codes when those problems show up."
+        },
+        {
+          "question": "Do I need the mortar calculator every match?",
+          "answer": "Only if you or a teammate is providing indirect fire. When that is your role, the mortar calculator saves time and reduces missed barrages. Pair it with map landmarks so the whole squad shares the same references."
+        },
+        {
+          "question": "Will this WARDOGS wiki invent live server stats?",
+          "answer": "No. Server and status guidance focuses on how to join, troubleshoot, and stay stable. Live population figures and unverified hotfix claims belong on official Steam or developer channels, not as invented numbers here."
+        }
+      ]
+    },
+    {
+      "slug": "wardogs-mortar-calculator",
+      "lead": "Get usable range and azimuth from map coordinates with the WARDOGS mortar calculator, then dial your in-game mortar sights with a clean firing workflow built for WARDOGS matches.",
+      "sections": [
+        {
+          "heading": "How to Use the WARDOGS Mortar Calculator",
+          "paragraphs": [
+            "Start by opening the WARDOGS mortar calculator beside your map view. Pick your mortar position first, then mark the target area you want to suppress or destroy. The calculator returns distance and azimuth from those coordinates so you can set the tube without guessing from memory alone.",
+            "In WARDOGS, mortars are part of the broader fortification and fire-support loop. A practical player workflow many squads follow is to establish or reinforce a Forward Operating Base, bring building supplies, and place the mortar where it has cover and a clear radio link to spotters. Exact build costs can change during Early Access, so treat supply planning as a squad checklist rather than a fixed spreadsheet.",
+            "Once the tool shows range and azimuth, switch into the mortar and dial the range using the in-game sights. Keep the calculator open for corrections when your spotter calls a miss left, right, short, or long. Small azimuth adjustments matter more than large panic swings, especially when the target is near friendlies or a contested Control Zone.",
+            "Use the same process for follow-up barrages. If the enemy relocates twenty to forty meters, update the target pin instead of rebuilding the entire solution from scratch. That habit keeps the WARDOGS mortar calculator useful under pressure instead of becoming a one-shot novelty.",
+            "Keep the WARDOGS mortar calculator visible on a second monitor or phone so the gunner can refresh distance after every correction without leaving the seat.",
+            "New gunners should complete one dry run with the WARDOGS mortar calculator before the first live round so range and azimuth language is already shared."
+          ],
+          "usedSourceIds": [
+            "steam_1867240"
+          ]
+        },
+        {
+          "heading": "WARDOGS Mortar Range and Azimuth",
+          "paragraphs": [
+            "Range is the ground distance between the mortar and the target. Azimuth is the direction you must face the tube so the round travels along that line. The WARDOGS mortar calculator focuses on those two values because they transfer cleanly into gameplay without inventing elevation formulas that the client may not expose the same way.",
+            "Players typically work within roughly 700 meters for practical mortar support. That figure is a community working envelope, not an official published maximum, and real engagement distance still depends on terrain, cover, and whether your spotter can actually see the impact. If a requested fire mission sits far outside the distances your squad has been landing, reposition the mortar or choose a different support option.",
+            "Azimuth mistakes usually come from confusing map north with the direction your character is facing, or from calling degrees in the wrong direction when correcting. Agree on a simple language: “add five degrees right” should always mean the same thing to gunner and spotter. Write the first solution down or leave the calculator visible so mid-fight panic does not wipe the baseline.",
+            "When the target is on a slope, behind a ridge, or inside dense structures, expect the first round to need adjustment even if the planar distance looks perfect. Destruction and building cover in WARDOGS can hide impacts, so rely on a spotter’s voice call rather than assuming every miss is a calculator error.",
+            "Rehearse the WARDOGS mortar calculator callout format with your squad: mortar grid, target grid, range, azimuth, and who is spotting impacts.",
+            "When two spotters disagree, trust fresh pins in the WARDOGS mortar calculator over whoever shouted loudest on proximity voice."
+          ],
+          "usedSourceIds": [
+            "steam_1867240"
+          ]
+        },
+        {
+          "heading": "Mortar vs Artillery in WARDOGS",
+          "paragraphs": [
+            "Mortars shine when your squad needs responsive, local fire support tied to a FOB or a forward hold. They are buildable support pieces in the fortification loop, which means logistics, builders, and defenders all share responsibility for keeping the tube alive. Artillery, in the broader sense players use the word, usually means heavier or more distant fire support and vehicle-borne pressure rather than a single emplaced tube.",
+            "Choose the WARDOGS mortar calculator workflow when you already control ground near the fight and can protect the gunner. If the enemy is collapsing a flank far from your logistics chain, a mortar that cannot be resupplied or defended becomes a liability. In those moments, infantry pushes, vehicle harassment, or repositioning the whole FOB footprint may matter more than forcing a bad fire mission.",
+            "Team composition matters. A mortar without a spotter wastes rounds. A spotter without a gunner wastes information. Pair fire support with a loadout plan that keeps builders and logistics players funded, because starting cash and persistent money in WARDOGS reward teams that keep support roles alive across lives.",
+            "If your team is arguing mortar versus vehicle pressure, run one controlled fire mission through the WARDOGS mortar calculator before you abandon emplaced support entirely.",
+            "Document one successful fire mission after the match so your next WARDOGS mortar calculator session starts from a known good process."
+          ],
+          "usedSourceIds": [
+            "steam_1867240"
+          ]
+        },
+        {
+          "heading": "Using the WARDOGS Map with the Mortar Calculator",
+          "paragraphs": [
+            "Open the WARDOGS map tool to understand Control Zones, likely FOB approaches, and the terrain corridor your rounds must travel. Early Access map names players currently use include Bakurani, Ozeti, and Zestafona. Treat those as the live community map set rather than a permanent final list, and always confirm the map name in your server browser before planning long-range support.",
+            "Coordinate picking is the bridge between the two tools. Drop a pin on the mortar, drop a pin on the target, then feed those positions into the WARDOGS mortar calculator. If your squad shares a common callout language for grid landmarks, add that landmark name to the radio message so infantry knows where the danger close fire is landing.",
+            "Do not invent fixed FOB coordinates and memorize them as gospel. FOB placement is a match decision. Use the map to evaluate cover, supply routes, and angle to the active Control Zones, then recalculate whenever the tube moves. A calculator that is updated beats a perfect solution for a mortar that no longer exists.",
+            "Bookmark the WARDOGS mortar calculator beside the map tool so coordinate copies never bounce through three chat channels first.",
+            "If the front line jumps a compound, rebuild the target pin and rerun the WARDOGS mortar calculator instead of walking fire blindly across the street."
+          ],
+          "usedSourceIds": [
+            "steam_1867240"
+          ]
+        },
+        {
+          "heading": "Common Mortar Aiming Mistakes",
+          "paragraphs": [
+            "The first mistake is firing without a confirmed mortar position. If the tube was rebuilt a few meters away after a raid, yesterday’s azimuth is wrong. Always refresh both pins in the WARDOGS mortar calculator after a rebuild or a redeploy.",
+            "The second mistake is correcting the wrong axis. If the spotter says the round landed left, change azimuth; if it landed short or long, change range. Mixing those corrections creates a wandering impact that never settles. Keep one variable fixed while you solve the other whenever possible.",
+            "The third mistake is ignoring friendly movement. WARDOGS fights shift quickly around Control Zones, vehicles, and destruction. A perfect solution on an empty ridge becomes a team-damage risk when your own squad pushes through the same compound. Call danger-close clearly, or hold fire until infantry is clear.",
+            "The fourth mistake is overconfidence in maximum distance chatter. Players typically work within roughly 700 meters, but that does not mean every shot at the edge of that envelope is smart. Closer, observed fire with a living spotter usually wins more zones than speculative long shots that reveal your FOB for no gain.",
+            "A final sanity check with the WARDOGS mortar calculator beats guessing when smoke hides the first impact and your spotter only heard the round.",
+            "Squads that win with mortars treat the WARDOGS mortar calculator as a shared instrument, not a private gunner toy.",
+            "Close the loop by saving one screenshot of a clean solution from the WARDOGS mortar calculator for squad onboarding."
+          ],
+          "usedSourceIds": [
+            "steam_1867240"
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "question": "What does the WARDOGS mortar calculator actually calculate?",
+          "answer": "It turns mortar and target coordinates into distance and azimuth so you can dial the in-game sights. It is a firing workflow aid, not a damage simulator."
+        },
+        {
+          "question": "How do I get mortar coordinates in WARDOGS?",
+          "answer": "Use the WARDOGS map tool to pick your firing position and the target position, then enter or transfer those points into the WARDOGS mortar calculator before you shoot."
+        },
+        {
+          "question": "Is 700 meters the official mortar max range?",
+          "answer": "No official max range is claimed here. Players typically work within roughly 700 meters, so treat that as a practical community envelope and verify what your squad can land in-match."
+        },
+        {
+          "question": "Can I build a mortar without a FOB?",
+          "answer": "The practical workflow most players follow is to place and support mortars through the FOB and building-supply loop. Confirm the current build requirements in your match, because Early Access details can shift."
+        },
+        {
+          "question": "Should I use the calculator without a spotter?",
+          "answer": "You can take an opening shot from coordinates alone with the WARDOGS mortar calculator, but a spotter makes corrections safer and faster, especially near contested Control Zones."
+        }
+      ]
+    },
+    {
+      "slug": "wardogs-map",
+      "lead": "Orient on current maps with the WARDOGS map tool, mark FOBs and objectives, and copy coordinates into your mortar and squad workflows without relying on memorized guesswork.",
+      "sections": [
+        {
+          "heading": "How to Use the WARDOGS Map Tool",
+          "paragraphs": [
+            "Open the WARDOGS map for the battlefield your server is running, then identify the active Control Zones and the corridors that connect them. WARDOGS battles play out on large Control Zone maps measured around two by two kilometers, with up to one hundred players split across three teams racing toward one hundred points. That scale rewards teams that share a map language instead of scattering into isolated fights.",
+            "Use coordinate picking whenever you need a mortar solution, a rally point, or a logistics drop. Click or mark the position, read the coordinates, and pass them in voice or text with a short landmark description. The goal is shared awareness: every player should know whether a pin means “build here,” “attack here,” or “danger close.”",
+            "Keep the tool nearby during the match rather than treating it as a pre-game poster. FOBs move, zones flip, and destruction changes which approaches stay safe. A quick re-check on the WARDOGS map often saves a full squad wipe on a route that was good ten minutes earlier.",
+            "Teach every squad lead the same WARDOGS map pin language on day one so replacements can join mid-match without a lecture."
+          ],
+          "usedSourceIds": [
+            "steam_1867240"
+          ]
+        },
+        {
+          "heading": "Current WARDOGS Maps and Key Locations",
+          "paragraphs": [
+            "Present those names as the live set players are navigating right now, not as a promise that the roster will never expand. When you load into a server, verify the map title in the browser or loading screen, then open the matching WARDOGS map layer so your pins land on the correct terrain.",
+            "Key locations on any WARDOGS map are less about tourist landmarks and more about functional ground: Control Zone interiors, covered FOB pockets, vehicle routes, helicopter landing lanes, and sightlines for recon. Because the mode is zone control under pressure, the “important” location is whichever ground lets your team score the next points while keeping a supply line alive.",
+            "Avoid memorizing fake static FOB coordinates from random screenshots. A strong FOB on one round can be a death trap on the next if the zone rotation or enemy vehicle path changed. Use the WARDOGS map to evaluate cover and distance live, then rebuild your pins for that match."
+          ],
+          "usedSourceIds": [
+            "steam_1867240"
+          ]
+        },
+        {
+          "heading": "FOBs, Objectives and Coordinate Workflow",
+          "paragraphs": [
+            "WARDOGS lets teams build Forward Operating Bases as part of the tactical loop that also includes vehicles, helicopters, destruction, and proximity voice. On the WARDOGS map, a good FOB marker balances distance to the active zones against defensibility and resupply. Too close and you get raided; too far and your infantry burns time walking while the point clock runs.",
+            "Objectives are the Control Zones that feed the race to one hundred points. Read which zones your team can realistically contest with the players online, not which zones look prestigious on a static image. Three-team pressure means a two-team brawl on one point can hand the third team an easier score elsewhere.",
+            "Coordinate workflow should be boring and repeatable. Builder drops a FOB pin. Logistics confirms the route. Squad lead marks the attack pin. Mortar team copies both into the calculator if fire support is coming. When everyone trusts the WARDOGS map pins, you spend less time arguing and more time executing."
+          ],
+          "usedSourceIds": [
+            "steam_1867240"
+          ]
+        },
+        {
+          "heading": "Pairing the Map with Mortar and Squad Tools",
+          "paragraphs": [
+            "Mortar teams should treat the map as the source of truth for both tube and target. After a rebuild, refresh the mortar pin before you trust an old azimuth. After a zone flip, refresh the target pin before you fire into a compound your own team just entered.",
+            "Infantry leads can use the same pins to stage flanks, while helicopter pilots use them to avoid landing inside a mortar corridor or a vehicle kill lane. Because proximity voice exists, a clear pin name spoken aloud often beats a long typed explanation.",
+            "Server choice still matters for map practice. A stable community server lets your group rehearse the same Bakurani or Ozeti routes until the callouts become muscle memory. Check server health before you invest a full night learning one layer of the WARDOGS map."
+          ],
+          "usedSourceIds": [
+            "steam_1867240"
+          ]
+        },
+        {
+          "heading": "Practical Map Tips for Squads",
+          "paragraphs": [
+            "Name pins by job, not by vibes. “FOB-North-Supply,” “Attack-Zone-B,” and “Mortar-1” tell teammates what to do. Cute names create hesitation when the point is trading hands.",
+            "Revisit the WARDOGS map after every major loss. If your squad wiped on the same approach twice, the route is the problem more often than individual aim. Mark an alternate corridor and assign one player to watch the old lane for vehicles.",
+            "Separate recon information from attack orders. A recon pin that means “enemy seen” should not look identical to a pin that means “push now.” Color, naming, or voice context should make the difference obvious.",
+            "Finally, remember that the map tool cannot replace local awareness. Destruction changes cover, smoke and debris hide lanes, and helicopters rewrite which ridges are safe. Use the WARDOGS map to plan, then let live intel finish the decision.",
+            "Screenshot your best WARDOGS map setups after a win if you want a training reference, but still rebuild pins live next round."
+          ],
+          "usedSourceIds": [
+            "steam_1867240"
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "question": "Which WARDOGS maps does this tool cover?",
+          "answer": "Community tools and players currently reference Bakurani, Ozeti, and Zestafona. Always confirm the map your server loaded before you plan around a layer."
+        },
+        {
+          "question": "Can the WARDOGS map show exact FOB coordinates for every match?",
+          "answer": "No fixed public coordinate list can replace live placement. Use coordinate picking for the FOB and objectives your team actually builds in that round."
+        },
+        {
+          "question": "How does the map help with mortars?",
+          "answer": "Mark the mortar and the target on the WARDOGS map, then send those coordinates into the mortar calculator for distance and azimuth. The WARDOGS map remains the source of truth when either pin moves."
+        },
+        {
+          "question": "What should new players mark first?",
+          "answer": "Mark active Control Zones, a candidate FOB location, and one safe approach route. Add mortar or vehicle pins only after the squad agrees on the plan."
+        },
+        {
+          "question": "Do map layouts change during Early Access?",
+          "answer": "They can. Treat current map names and community layouts as the live reference set, and re-check after major updates."
+        }
+      ]
+    },
+    {
+      "slug": "wardogs-best-settings",
+      "lead": "Use these WARDOGS best settings as practical starting points for smoother FPS, clearer fights and fewer performance surprises on mid-range and high-end PCs.",
+      "sections": [
+        {
+          "heading": "Best WARDOGS Settings at a Glance",
+          "paragraphs": [
+            "WARDOGS is a large-scale tactical shooter with vehicles, helicopters, destruction and busy Control Zone fights, so frame time spikes are normal if your PC is already near the Steam minimum. The WARDOGS best settings approach is simple: protect resolution and visibility first, then lower the expensive effects that usually hurt FPS in chaotic multiplayer scenes.",
+            "Steam lists Windows 10 or 11, 16GB of RAM, a GTX 1660 or Radeon RX 590 class GPU as the minimum, and an RTX 3070 or Radeon RX 6700 XT class GPU as recommended, with roughly 50GB of storage. If you are near the minimum, start with a competitive-leaning mix rather than ultra cosmetics. If you meet or beat the recommended GPU, you can keep more lighting polish while still capping frames for stability.",
+            "Begin with a native or clean scaled resolution, a frame-rate cap your GPU can hold in a full fight, and lower shadow or effects quality if those options are available. Cap frame rate when your GPU is thermal throttling instead of chasing a peak number in an empty area. Stability during a three-team zone fight matters more than a benchmark screenshot.",
+            "Write down your WARDOGS best settings after a good match so a patch reset does not send you back to random defaults.",
+            "Compare your WARDOGS best settings against the Steam minimum and recommended brackets so you are not copying an RTX 3070 preset onto a GTX 1660 laptop."
+          ],
+          "usedSourceIds": [
+            "steam_1867240"
+          ]
+        },
+        {
+          "heading": "Graphics and Visibility Tradeoffs",
+          "paragraphs": [
+            "The best WARDOGS settings for visibility usually keep contrast readable, reduce exaggerated bloom or motion blur if those toggles exist, and preserve enough draw distance to see vehicles before they crest a ridge. Lowering every option blindly can make distant players and helicopters harder to track, which costs more rounds than a few lost frames.",
+            "Prioritize readability in mixed indoor and outdoor Control Zones. If a setting makes dark corners crush to black or bright exteriors blow out, adjust brightness and related graphics options until both spaces stay usable. Competitive players often accept simpler shadows if the trade buys a steadier frame pace while aiming.",
+            "Because destruction and particle spam can spike during pushes, test settings in a live fight rather than the main menu. The WARDOGS best settings for your machine are the ones that hold in a contested zone with vehicles nearby, not the ones that look fine on the title screen.",
+            "When friends share screenshots of ultra presets, compare them against your WARDOGS best settings goal: readable fights first, cosmetics second.",
+            "A clean WARDOGS best settings profile also leaves CPU headroom for voice, map tools and browser overlays you actually need."
+          ],
+          "usedSourceIds": [
+            "steam_1867240"
+          ]
+        },
+        {
+          "heading": "Performance Troubleshooting Checklist",
+          "paragraphs": [
+            "Close heavy overlays and background recorders first, then confirm Windows is not installing updates mid-session. WARDOGS uses Elytra kernel anti-cheat on Steam, so unexpected overlay conflicts or blocked hooks can show up as hitching, failed launches, or odd performance regressions after a driver update.",
+            "Update GPU drivers cleanly, verify the game files in Steam, and make sure the title is installed on storage with enough free space headroom around the roughly 50GB footprint. If your GPU temperature climbs until clocks fall, improve airflow or lower the frame cap before you gut every quality option.",
+            "Network hitching can feel like bad graphics settings. If the frame counter is fine but movement rubber-bands, check server status and connection quality before another graphics pass. Stable servers make settings tuning much easier to judge.",
+            "If FPS only collapses in one neighborhood of a map, revisit the WARDOGS best settings for shadows and effects before blaming the entire GPU.",
+            "Create a before-and-after note each time you change the WARDOGS best settings so you can revert the one tweak that hurt input lag."
+          ],
+          "usedSourceIds": [
+            "steam_1867240"
+          ]
+        },
+        {
+          "heading": "System Requirements Context",
+          "paragraphs": [
+            "If you are on a GTX 1660 or RX 590 class card with 16GB of RAM, aim for consistent competitive play rather than maximum spectacle. The WARDOGS best settings on that hardware should protect aim and awareness first. On an RTX 3070 or RX 6700 XT class card, you can usually keep more visual polish while still capping frames for a flatter frame-time graph.",
+            "CPU and RAM pressure rise with player count, voice, vehicles and destruction. Keep background browsers and launchers in check during full matches. A clean desktop session is often worth more FPS than a tiny graphics tweak.",
+            "Revisit your preset after major Early Access patches. A new effects path or anti-cheat update can change which option is the real bottleneck, and yesterday’s balanced mix may need a fresh pass.",
+            "Laptop players should treat the WARDOGS best settings as a thermal plan as much as a quality plan, especially during long helicopter logistics nights.",
+            "Storage speed can matter during stuttery streaming hitch moments, so keep the WARDOGS best settings conversation honest about SSD health too."
+          ],
+          "usedSourceIds": [
+            "steam_1867240"
+          ]
+        },
+        {
+          "heading": "Settings That Help Competitive Play",
+          "paragraphs": [
+            "Bind critical actions so you can react while looking at the WARDOGS map or communicating a mortar pin. Make sure your audio mix leaves room for proximity voice and vehicle cues. A beautiful preset that hides footsteps or rotor audio is a bad trade.",
+            "If you fly, stabilize FPS before you chase perfect HOTAS curves. Helicopter micro-corrections feel worse on a hitching frame pace than on a slightly simpler image. Get the WARDOGS best settings foundation stable, then open the helicopter controls guide to finish sensitivity work.",
+            "Finally, save a known-good profile. When a patch resets options or a friend “optimizes” your PC, you want a documented baseline that already survived a full Control Zone fight.",
+            "Review the WARDOGS best settings again whenever you change monitors, because a new refresh rate often needs a fresh frame cap.",
+            "Duo partners should not force identical WARDOGS best settings; matched clarity matters more than matched ultra cosmetics.",
+            "If aim feels floaty after a driver update, roll back to your last known WARDOGS best settings before changing sensitivity again."
+          ],
+          "usedSourceIds": [
+            "steam_1867240"
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "question": "What are the WARDOGS best settings for low-end PCs?",
+          "answer": "Start with the WARDOGS best settings approach: native or mild-scaled resolution, a realistic frame cap, and lower shadow/effects quality if available. Keep enough visibility to spot vehicles, then retest in a live fight."
+        },
+        {
+          "question": "Should I use the Steam recommended GPU settings as ultra?",
+          "answer": "Not automatically. The RTX 3070 / RX 6700 XT recommendation means you can aim for smoother high settings, but a fight-tested cap still beats an unstable ultra preset."
+        },
+        {
+          "question": "Why is my FPS fine in menus but bad in matches?",
+          "answer": "Large player counts, destruction, vehicles and effects spike cost during Control Zone fights. Tune the WARDOGS best settings in a live match, not only on the title screen."
+        },
+        {
+          "question": "Can overlays cause performance problems?",
+          "answer": "Yes. Overlays and recorders can hitch frame times and occasionally conflict with anti-cheat. Disable extras temporarily while you isolate the issue."
+        },
+        {
+          "question": "Do I need to change settings after every update?",
+          "answer": "Not every update, but after major Early Access patches you should re-check frame pace and visibility because performance bottlenecks can shift."
+        }
+      ]
+    },
+    {
+      "slug": "wardogs-helicopter-controls",
+      "lead": "Learn community-reported WARDOGS helicopter controls, then verify every bind and sensitivity value in your settings before you take a bird into a live Control Zone fight.",
+      "sections": [
+        {
+          "heading": "WARDOGS Helicopter Controls",
+          "paragraphs": [
+            "Strong WARDOGS helicopter controls feel boring in the best way: collective for climb and descent, cyclic for pitch and roll, anti-torque for yaw, plus countermeasure and lock inputs when you are being hunted. The exact labels in your options menu may vary, so treat community layouts as a checklist to verify rather than a guarantee that every bind ships identical for every input device.",
+            "Before you join a full one-hundred-player match, spend time in a quieter server confirming that climb, descend, yaw and flares do what you expect. A helicopter is a logistics and assault multiplier when the pilot is calm, and a free kill when the binds are wrong. Proximity voice helps, but it cannot save a bird that cannot countermeasure or land.",
+            "Pair your control setup with stable FPS. If the frame pace hitching, micro-adjustments on the cyclic feel exaggerated. Sort the WARDOGS best settings foundation first, then return here to finish the flight curve.",
+            "Print or note your verified WARDOGS helicopter controls before a tournament-style night so a reset does not erase muscle memory.",
+            "Treat WARDOGS helicopter controls like a preflight checklist: collective, yaw, flares, lock, then landing camera comfort."
+          ],
+          "usedSourceIds": [
+            "steam_1867240"
+          ]
+        },
+        {
+          "heading": "Community-Reported Keybinds",
+          "paragraphs": [
+            "Keyboard and mouse pilots often report Space for engine or climb behavior, Shift for descend or Collective Lower, WASD for pitch and roll or a remapped cyclic pattern, Q and E for yaw, V for flares, and L for lock. Because Early Access bindings can be renamed or moved between categories, open the control list and search for collective, yaw, flares and lock terms before you trust muscle memory from a video.",
+            "If a reported bind does nothing, check for duplicate assignments and for separate aircraft versus infantry categories. Many flight problems are just an infantry jump key still owning the input you thought was collective. Rebind deliberately, then save the profile.",
+            "Controller and HOTAS users should look for Gamepad axis bindings in the same settings area. Community starting points often suggest sensitivity around 1.00 with a small deadzone so the stick returns to center cleanly without killing fine aim. Those values are community starting points, not universal guarantees, so nudge them after a real landing and strafing pass.",
+            "After every patch, open Settings and reconfirm WARDOGS helicopter controls for flares and collective before you accept a pilot slot."
+          ],
+          "usedSourceIds": [
+            "steam_1867240"
+          ]
+        },
+        {
+          "heading": "Sensitivity, Deadzone and HOTAS Setup",
+          "paragraphs": [
+            "For WARDOGS helicopter controls on HOTAS or gamepad, start with the community suggestion of sensitivity near 1.00 and a small deadzone, then adjust only one axis family at a time. If the nose wanders while you try to hold a hover, increase deadzone slightly or lower sensitivity. If precision aiming feels sluggish, reduce deadzone carefully so you do not reintroduce stick drift.",
+            "Map collective to an axis you can modulate smoothly. Abrupt digital taps make altitude oscillate, especially when you are trying to crest a ridge without presenting a full silhouette. Keep yaw on an axis or buttons you can feather while your eyes stay outside the cockpit view.",
+            "Once the curve feels stable in open air, practice a landing beside a FOB pin from the WARDOGS map. Landing under pressure is the real test of WARDOGS helicopter controls, because that is when players over-collect, swing yaw, and clip terrain.",
+            "Share your working WARDOGS helicopter controls curve with squad pilots, but tell them to retune deadzone for their own stick wear."
+          ],
+          "usedSourceIds": [
+            "steam_1867240"
+          ]
+        },
+        {
+          "heading": "Flying Tips for Combat and Logistics",
+          "paragraphs": [
+            "Fly terrain whenever you can. Straight-line cruising over open ground makes you easy to track from Control Zones and vehicle positions. Approach landing zones with an exit path already chosen so you are not inventing a departure while flares are popping.",
+            "Coordinate with ground leads using short calls: inbound side, estimated seconds, and whether you need a hot pickup or a cold resupply. The same cash economy that funds infantry loadouts also funds the logistics chain that keeps aircraft relevant, so wasted trips hurt the whole team.",
+            "Do not treat the helicopter as a solo deathmatch vehicle. A pilot who ignores squad pins and dumps teammates into the wrong compound burns more tickets than a patient logistics run. Use the map, confirm the LZ, then commit.",
+            "Logistics leads should refuse untested pilots until WARDOGS helicopter controls for flares and collective are confirmed in Settings."
+          ],
+          "usedSourceIds": [
+            "steam_1867240"
+          ]
+        },
+        {
+          "heading": "Common Helicopter Mistakes",
+          "paragraphs": [
+            "Skipping a controls check after a patch is the classic mistake. A single rebound or category rename can turn Space into the wrong action at the worst moment. Verify flares and collective every time the game updates.",
+            "Over-hovering above a contested zone is the second classic mistake. Hovering makes gunnery easy for everyone on the ground. Make the pass, drop or extract, and leave. If you must linger, change altitude and lateral position constantly.",
+            "The third mistake is ignoring sensitivity until you are already in a full match. Tune WARDOGS helicopter controls on a quieter server or empty stretch of map first. Your squad would rather wait two minutes than watch the only bird cartwheel into the FOB wall.",
+            "The fastest way to rebuild confidence is a quiet server, a clean landing pad pin, and ten minutes of deliberate WARDOGS helicopter controls practice.",
+            "If you bounced between keyboard and HOTAS, save separate WARDOGS helicopter controls profiles so you are not halfway between both."
+          ],
+          "usedSourceIds": [
+            "steam_1867240"
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "question": "What are the default WARDOGS helicopter controls?",
+          "answer": "Use community-reported starting points such as Space, Shift, WASD, Q/E, V and L as a checklist for WARDOGS helicopter controls, then verify each action in Settings because labels and binds can differ by input device and patch."
+        },
+        {
+          "question": "Does WARDOGS support HOTAS?",
+          "answer": "The game exposes Gamepad axis bindings that HOTAS users commonly map. Start around sensitivity 1.00 with a small deadzone, then refine after real landings."
+        },
+        {
+          "question": "Why are my helicopter binds not working?",
+          "answer": "Check for duplicate infantry binds, the correct aircraft control category, and whether a recent update reset your profile."
+        },
+        {
+          "question": "Should I learn heli controls before improving FPS settings?",
+          "answer": "Stabilize performance first. Hitching frames make good WARDOGS helicopter controls feel worse than they are."
+        },
+        {
+          "question": "What should I practice first as a new pilot?",
+          "answer": "Practice collective smoothness, a clean landing near a FOB pin, and a flare check. Add combat passes only after those basics are reliable."
+        }
+      ]
+    },
+    {
+      "slug": "wardogs-servers",
+      "lead": "Learn how WARDOGS servers work, how to check status without fake uptime lights, what community cash bonuses mean, and how to troubleshoot queues and kicks.",
+      "sections": [
+        {
+          "heading": "WARDOGS Servers: Official vs Community",
+          "paragraphs": [
+            "Official-style play is where most players first learn Control Zones, FOB building and the three-team scramble toward one hundred points. Community WARDOGS servers often add house rules, different moderation standards, event rotations or economy tweaks that change how fast cash and kits come online. Neither option is automatically better; they serve different nights.",
+            "Before you main a community host, read the server description in the browser, join the linked Discord if one exists, and watch how admins handle griefing or spawn camping. A friendly ruleset matters as much as ping when matches last long enough for logistics and mortar setups to matter.",
+            "If you are practicing helicopters, mortar workflows or role loadouts with a regular squad, a stable community home can be worth more than hopping through random browsers every session. Just keep one eye on official patch notes so your habits do not drift too far from the base game.",
+            "Keep a shortlist of trusted WARDOGS servers in a note app so you are not guessing names while a queue is moving."
+          ],
+          "usedSourceIds": [
+            "steam_1867240"
+          ]
+        },
+        {
+          "heading": "How to Check Server Status",
+          "paragraphs": [
+            "When the browser looks empty, friends cannot connect, or authentication errors spike, check Steam news for the WARDOGS app and any official or community Discord status posts before you reinstall half your PC. Outages and queue overload are often environmental rather than a broken local install.",
+            "Inside the game, refresh the server browser, note the map name and player counts, and avoid hammering reconnect if the whole list is failing. Rapid retries during auth overload can make error codes like authentication failures more common for everyone.",
+            "Record the server name and any visible ID before you ask for help. Support channels and Discord moderators can do more with a specific host name than with “the server is broken.” Keep that detail next to any screenshot of an error code.",
+            "When friends ask which WARDOGS servers are alive, point them at Steam news and Discord instead of guesswork screenshots."
+          ],
+          "usedSourceIds": [
+            "steam_1867240"
+          ]
+        },
+        {
+          "heading": "Community Server Cash Bonus Explained",
+          "paragraphs": [
+            "In the base Steam fantasy of WARDOGS, you start with ten thousand dollars, cash persists between matches, and Hot Zone play can double cash rewards. Community hosts sometimes advertise an extra cash bonus on top of that loop. The important part for players is to read what the bonus actually changes: buy-in speed, loadout freedom, or event weekends.",
+            "This guide does not invent percentage values. If a server claims a cash bonus, treat the listing text and the in-game result as the source of truth, and ask moderators when the description is vague. A clearer economy can be great for learning loadouts, but it can also hide bad habits if you never play a tighter economy again.",
+            "Pick bonus servers intentionally. Use them to practice expensive support toys or helicopter logistics, then return to standard economy WARDOGS servers when you want a more grounded fight. That rotation keeps your fundamentals honest."
+          ],
+          "usedSourceIds": [
+            "steam_1867240"
+          ]
+        },
+        {
+          "heading": "Queue, Kick and Browser Issues",
+          "paragraphs": [
+            "If you are stuck in a queue, wait for a real slot instead of creating five launcher instances. Queues often mean the host is popular or the platform side is rate-limiting joins. Use the time to ready your loadout plan and map callouts.",
+            "Kicks can come from admin moderation, connectivity drops, anti-cheat checks or server restarts. Read the message carefully. If it points to authentication or online services, follow the safe repair steps in the error-code guide rather than disabling security tools permanently or downloading unofficial clients.",
+            "Browser problems such as an empty list, duplicated entries or stale player counts usually improve after a full game restart, a Steam restart, or simply waiting through a platform blip. Verify files only after status channels say the service side looks healthy."
+          ],
+          "usedSourceIds": [
+            "steam_1867240"
+          ]
+        },
+        {
+          "heading": "Choosing a Server That Fits Your Playstyle",
+          "paragraphs": [
+            "New players often benefit from moderated community spaces with clear rules and enough population to fill vehicles without instant stomps. Experienced squads may prefer hosts that keep map rotations predictable so mortar and heli routines stay relevant.",
+            "Look at ping, population, map names like Bakurani, Ozeti or Zestafona, and whether the description mentions economy changes. Then play one full match before you declare the server your home. First impressions in the browser are not the same as late-match logistics quality.",
+            "When in doubt, keep a shortlist of two or three WARDOGS servers instead of a single fragile dependency. If one host goes down for maintenance, your night does not have to end.",
+            "Rotate between serious and casual WARDOGS servers if you want both disciplined practice and experimental loadout nights."
+          ],
+          "usedSourceIds": [
+            "steam_1867240"
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "question": "How do I check if WARDOGS servers are down?",
+          "answer": "Check Steam news for the game and any official or community Discord status posts. Do not trust third-party fake online lights."
+        },
+        {
+          "question": "What is a community server cash bonus?",
+          "answer": "Some community hosts advertise extra cash rewards to speed up loadout access. Read the server description for details and do not assume a specific percentage."
+        },
+        {
+          "question": "Why am I stuck in a WARDOGS queue?",
+          "answer": "The server may be full or the join pipeline may be overloaded. Wait for a slot, try another host, and avoid spam reconnecting during auth issues."
+        },
+        {
+          "question": "Should I play official or community servers?",
+          "answer": "Play official-style servers to learn the baseline economy and rules, and use community WARDOGS servers when you want specific moderation, events or advertised bonuses. Sample a few WARDOGS servers before you main one."
+        },
+        {
+          "question": "What info should I save when a server fails?",
+          "answer": "Save the server name, any ID shown in the browser, the map name, the time of the issue and the exact error or kick text."
+        }
+      ]
+    },
+    {
+      "slug": "wardogs-best-loadouts",
+      "lead": "Build smarter WARDOGS best loadouts around roles, cash discipline and team needs—without chasing unverified damage charts.",
+      "sections": [
+        {
+          "heading": "Best WARDOGS Loadouts at a Glance",
+          "paragraphs": [
+            "In WARDOGS you buy a custom loadout each life, so every death is a purchasing decision as much as a tactical one. Cash that persists between matches rewards players who survive with purpose, play the Hot Zone when doubling cash matters, and avoid spending like every round is a fashion show. The WARDOGS best loadouts are the ones you can still afford after a messy fight.",
+            "Teamplay is also part of the economy. Revives, logistics, zone captures and coordinated pushes feed the wider progression fantasy, which means a “meta” rifle is worthless if your squad cannot hold a FOB or move supplies. Spend first on the role your team is missing, not on the gun you saw in a highlight clip.",
+            "Because Early Access can reshuffle availability and pricing, this guide stays on philosophy and checklists instead of inventing DPS numbers, attachment multipliers or unlock costs. Open the in-game purchase screen, compare what you can actually buy on that life, and keep a cheap backup kit in mind.",
+            "Track which WARDOGS best loadouts you could repurchase after two deaths; that metric matters more than a one-life dream kit.",
+            "Explain the repurchase rule to new teammates so your WARDOGS best loadouts advice does not get ignored after the first wipe."
+          ],
+          "usedSourceIds": [
+            "steam_1867240"
+          ]
+        },
+        {
+          "heading": "Role-Based Loadout Philosophy",
+          "paragraphs": [
+            "Infantry kits exist to take and clear Control Zones. Support and medic-leaning kits exist to keep that infantry alive and supplied. Builders exist to create the FOB backbone. Recon and sniper-leaning kits exist to spot, delay and shape attacks. Logistics kits exist to keep the whole machine fed. If your gun is excellent but your job is empty, the loadout failed.",
+            "Attachments should serve the engagement distance you actually fight. Close compound clearing wants handling and target acquisition. Ridge overwatch wants control and clean sight pictures. Do not fill every rail because the menu allows it; unused attachment budget is often better left as cash for the next life.",
+            "Rewrite your kit when the map and plan change. A Bakurani city squeeze does not need the same package as a long vehicle approach on another layer. Check the WARDOGS map, agree the plan, then buy.",
+            "Update your WARDOGS best loadouts whenever the squad composition changes, because a missing builder is a gear problem as much as a manpower problem.",
+            "Keep a Support-leaning alternative inside your WARDOGS best loadouts list for matches that already have too many pure riflemen."
+          ],
+          "usedSourceIds": [
+            "steam_1867240"
+          ]
+        },
+        {
+          "heading": "Infantry, Support and Medic Setups",
+          "paragraphs": [
+            "Infantry: prioritize a reliable primary you can buy repeatedly, enough ammo for a full zone swing, and utilities that help entry or defense. The WARDOGS best loadouts for riflemen are boring on purpose. Consistency beats a glamorous purchase you can afford once per hour.",
+            "Support and medic-leaning play: leave room in the budget for the tools that keep teammates in the fight. A support player who arrives broke because of vanity attachments cannot do the job. Think in terms of revive potential, ammo help, and staying alive beside the point rather than solo hero frags.",
+            "When your squad is already infantry-heavy, switch. Three duplicate assault kits with no support plan will stall against a team that built a FOB and brought logistics. Role diversity is a loadout decision.",
+            "Save a budget infantry option inside your WARDOGS best loadouts notes for nights when cash is tight after Hot Zone failures.",
+            "Medic-minded players should judge WARDOGS best loadouts by lives restored near the point, not by spectator kill feed vanity."
+          ],
+          "usedSourceIds": [
+            "steam_1867240"
+          ]
+        },
+        {
+          "heading": "Builder, Recon and Logistics Builds",
+          "paragraphs": [
+            "Builder: spend on survival and tools that help you place and defend FOB infrastructure. Your value is uptime for spawn and support options, including the mortar loop when your team needs emplaced fire. A dead builder with a fancy secondary helps nobody.",
+            "Recon and sniper-leaning kits: prioritize information and safe angles over greed. Spotting for teammates, watching vehicle lanes, and warning about helicopter approaches can win zones without a highlight reel. Keep a plan for relocating when your ridge gets mortared.",
+            "Logistics: build around movement, cargo awareness and self-defense good enough to finish the route. Your purchases should make supply runs repeatable. If the squad needs air inserts, coordinate with pilots who already verified their helicopter controls instead of improvising on the runway.",
+            "Logistics players should review WARDOGS best loadouts with pilots and FOB builders together so the chain is funded end to end.",
+            "Recon spend should stay light enough that WARDOGS best loadouts remain flexible when the squad suddenly needs another rifle on the point."
+          ],
+          "usedSourceIds": [
+            "steam_1867240"
+          ]
+        },
+        {
+          "heading": "Attachment and Loadout Checklist",
+          "paragraphs": [
+            "Ask what distance you will fight, who will revive you, and whether your squad still needs a builder or logistics player. If the answer is “we need supplies,” your personal dream rifle can wait. Cash persistence makes patient spending powerful across a whole session.",
+            "After the match, note which purchases felt mandatory and which ones never left your inventory in a useful way. Trim the dead weight. Over time your default kits become cheaper and stronger without any fictional DPS spreadsheet.",
+            "When a community server advertises a cash bonus, you can experiment more freely, but still practice a disciplined kit you could afford on a standard economy. That keeps your fundamentals transferable.",
+            "End each week by deleting one unused attachment habit from your WARDOGS best loadouts so the default buy stays lean.",
+            "After a patch, re-open the buy menu and validate that your WARDOGS best loadouts still exist at a sensible price before the ranked-feeling night starts."
+          ],
+          "usedSourceIds": [
+            "steam_1867240"
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "question": "What are the WARDOGS best loadouts right now?",
+          "answer": "The WARDOGS best loadouts are role-complete builds you can repurchase with persistent cash, not a single universal weapon ranking. Choose infantry, support, builder, recon or logistics based on what your team lacks."
+        },
+        {
+          "question": "How much starting cash do I get?",
+          "answer": "Steam’s published loop gives you $10,000 to start, and cash persists between matches. You still buy a custom loadout each life."
+        },
+        {
+          "question": "Should I max attachments on every gun?",
+          "answer": "No. Buy attachments that help the distance and job you are playing, keep reserve cash for the next life or a role swap, and keep your WARDOGS best loadouts repurchase-friendly."
+        },
+        {
+          "question": "Do Hot Zones change loadout planning?",
+          "answer": "Yes. Hot Zone play can double cash rewards, so coordinated risk there can fund stronger future kits if your squad can survive the pressure."
+        },
+        {
+          "question": "Where do mortars fit into loadouts?",
+          "answer": "Mortars are part of the FOB and support ecosystem. Builders and logistics enable them; infantry and recon help protect and spot for them while your WARDOGS best loadouts stay role-complete."
+        }
+      ]
+    },
+    {
+      "slug": "wardogs-leveling-guide",
+      "lead": "Use this WARDOGS leveling guide to progress through teamplay-focused XP habits, with practical Support and Recon priorities instead of exploit routes or fake XP charts.",
+      "sections": [
+        {
+          "heading": "WARDOGS Leveling Guide and XP Basics",
+          "paragraphs": [
+            "A useful WARDOGS leveling guide starts with the loop you can trust: play objectives, support the squad, earn cash that persists between matches, and let XP follow meaningful participation. Starting money gives you room to take a role immediately, while Hot Zone risk can accelerate cash when your team can handle the pressure.",
+            "Because exact XP values and hourly rates are not something this guide invents, think in actions rather than spreadsheets. Capturing and defending Control Zones, moving supplies, building and maintaining FOB utility, reviving teammates, spotting threats and finishing coordinated pushes are the behaviors that stay valuable even when a patch retunes numbers.",
+            "Server choice affects how fast a night feels. A populated host with clean moderation lets you practice Support or Recon loops without constant grief. Check the servers guide if your progression nights keep dying to empty browsers or unstable queues.",
+            "Use this WARDOGS leveling guide as a session planner: choose Support or Recon before you spawn, then refuse side quests that abandon that lane.",
+            "Share this WARDOGS leveling guide with your stack so everyone stops chasing conflicting XP goals in the same squad."
+          ],
+          "usedSourceIds": [
+            "steam_1867240"
+          ]
+        },
+        {
+          "heading": "Support XP Priorities",
+          "paragraphs": [
+            "Support progression is the backbone fantasy of WARDOGS. If you want Support XP, volunteer for the unglamorous jobs that keep a team on the scoreboard: deliver building supplies, help stand up and defend a FOB, keep ammo and teammates flowing, and revive players who are still in a useful position.",
+            "Builders and logistics players should treat the map as part of the XP plan. A short, repeated supply route that actually arrives beats a heroic detour that dies in a dead-end alley. When your squad wants mortar pressure, Support play is what keeps the tube alive long enough to matter.",
+            "Do not confuse Support XP with staying forever behind the front line. The best support players still understand zone timing. Arrive with the push, drop what the squad needs, and leave before you become another body to recover.",
+            "Squad leads can accelerate the WARDOGS leveling guide plan by assigning one dedicated supply runner instead of hoping somebody volunteers mid-fight."
+          ],
+          "usedSourceIds": [
+            "steam_1867240"
+          ]
+        },
+        {
+          "heading": "Recon XP Priorities",
+          "paragraphs": [
+            "If your WARDOGS leveling guide goal is Recon XP, prioritize spotting, early warning and shaping fights rather than isolated sniper duels. Call vehicle routes, helicopter inbound paths and undefended flanks while your squad still has time to react. Information that arrives after the wipe does not help.",
+            "Use the WARDOGS map to choose ridges and compounds with an exit. Recon players who never relocate become mortar bait. Share pins that distinguish “enemy seen” from “push now,” and stay on voice long enough to confirm the squad understood the threat.",
+            "Recon still benefits from teamplay rewards. A spot that enables a zone capture or saves a logistics run is progression-relevant even if you never top the kill list. Measure your night by useful calls and survived rotations.",
+            "Pair the WARDOGS leveling guide recon focus with clear pin names so your information actually converts into zone pressure."
+          ],
+          "usedSourceIds": [
+            "steam_1867240"
+          ]
+        },
+        {
+          "heading": "Efficient Leveling Habits",
+          "paragraphs": [
+            "Pick one progression lane for a session. Mixing half-built Support habits with half-hearted Recon peeks usually produces average results in both. Tell your squad what you are practicing so they can feed you the right jobs.",
+            "Cash discipline accelerates everything around XP. A cheap repurchase kit keeps you in the fight after a bad spawn, which means more objectives and more support actions per hour without quoting a fake XP-per-hour number. Hot Zone plays are optional accelerants, not mandatory suicide rituals.",
+            "Avoid exploit hunting. Unofficial shortcuts get patched, create account risk, and teach nothing transferable. The durable way to level in WARDOGS is competent role play on real servers.",
+            "If a night feels dead, switch servers before you abandon the WARDOGS leveling guide habits that only work with a living logistics loop.",
+            "Short breaks between matches keep the WARDOGS leveling guide plan sharp; exhausted players stop calling supplies and spotting."
+          ],
+          "usedSourceIds": [
+            "steam_1867240"
+          ]
+        },
+        {
+          "heading": "Role Rotation and Teamplay Rewards",
+          "paragraphs": [
+            "Spend some nights as pure Support, some as Recon, and some as the infantry finisher who converts the work those roles create. That rotation teaches the whole loop and prevents burnout from one stubborn grind plan.",
+            "Squad up when you can. A coordinated trio completes more supply runs, mortar shoots and recon-to-push sequences than three solo players who never share pins. The WARDOGS leveling guide advantage is social as much as mechanical.",
+            "After patches, reassess. If a role feels weaker, shift effort toward whatever team actions still clearly move cash, zones and match outcomes. Flexible players outpace stubborn ones in Early Access.",
+            "Archive a simple WARDOGS leveling guide checklist in Discord: Support night, Recon night, finisher night, then repeat.",
+            "A complete WARDOGS leveling guide also accounts for morale. Long Support nights feel slow if your squad never acknowledges supply arrivals, so call out completed drops and successful revives. Positive feedback keeps people on the roles that actually generate XP momentum.",
+            "When you finish a focused evening, write one sentence about what worked: which FOB route stayed safe, which recon ridge got results, and which kit you could repurchase. That journal becomes the practical half of any WARDOGS leveling guide and prevents you from reinventing the same mistakes next weekend.",
+            "Captains can assign the WARDOGS leveling guide focus in the ready room: one Support primary, one Recon primary, everyone else finishing zones."
+          ],
+          "usedSourceIds": [
+            "steam_1867240"
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "question": "What is the fastest WARDOGS leveling method?",
+          "answer": "There is no exploit route recommended in this WARDOGS leveling guide. The fastest durable method is focused teamplay on objectives with a clear Support or Recon session goal."
+        },
+        {
+          "question": "How do I earn Support XP?",
+          "answer": "Lean into logistics, supplies, FOB work, defense and revives. Track whether your actions actually kept teammates fighting on the zone."
+        },
+        {
+          "question": "How do I earn Recon XP?",
+          "answer": "Prioritize spotting and early warning that your squad can use, not only long-range eliminations from a static ridge."
+        },
+        {
+          "question": "Do cash bonuses help leveling?",
+          "answer": "Community cash bonuses can make kit experimentation easier, which indirectly helps you stay useful. They are not a substitute for objective play."
+        },
+        {
+          "question": "Should I solo level or play with a squad?",
+          "answer": "A squad usually completes more Support and Recon loops per session because pins, revives and logistics land more reliably."
+        }
+      ]
+    },
+    {
+      "slug": "wardogs-error-codes",
+      "lead": "Resolve common WARDOGS error codes with safe launch, authentication and connection fixes—starting with 1147405308 and the online-services failures players hit during busy queues.",
+      "sections": [
+        {
+          "heading": "WARDOGS Error Codes: 1147405308 and Auth",
+          "paragraphs": [
+            "When WARDOGS error codes point at online services, assume the platform side may be struggling before you tear apart a healthy PC. Check Steam news and community status channels, wait a few minutes, and retry once or twice instead of launching a reconnect storm that makes the overload worse.",
+            "If the error persists after a short wait, restart WARDOGS, then restart Steam, then try again. Many authentication failures clear when the client refreshes its session tokens. Keep Elytra anti-cheat and Steam overlays in mind as part of the stack, but do not jump straight to disabling security tools permanently.",
+            "Only after status looks healthy and restarts fail should you verify game files or dig into local network issues. That order saves time when the real problem is a busy auth service rather than a corrupted install.",
+            "Keep a running note of which WARDOGS error codes you see and when, because patterns across evenings are more useful than a single screenshot.",
+            "If 1147405308 clears after a wait, still skim the wider WARDOGS error codes checklist so you know the next safe step if it returns."
+          ],
+          "usedSourceIds": [
+            "steam_1867240"
+          ]
+        },
+        {
+          "heading": "Launch and Startup Fixes",
+          "paragraphs": [
+            "If the game will not start, confirm Steam is online, your system meets the published Windows 10/11 and hardware guidance, and you have headroom around the roughly 50GB install. A disk that is completely full can fail updates and launches in confusing ways.",
+            "Run Steam as your normal authenticated user, install pending Redistributables if Steam prompts for them, and avoid unofficial launchers. WARDOGS uses Elytra kernel anti-cheat; cracked or replaced binaries are unsafe, unsupported, and outside the scope of any legitimate fix guide.",
+            "GPU driver crashes on launch are a different branch. Update drivers cleanly, temporarily disable optional overlays to test, and restore a known-good graphics preset if you recently changed everything at once. The settings guide helps you rebuild a stable baseline afterward.",
+            "Friends often mislabel every failure as the same WARDOGS error codes family, so compare the exact text before you copy their fix."
+          ],
+          "usedSourceIds": [
+            "steam_1867240"
+          ]
+        },
+        {
+          "heading": "Connection, Queue and Kick Errors",
+          "paragraphs": [
+            "Queue stalls and join failures often share DNA with authentication overload. If many players are hammering a popular community host, wait for a real slot and keep your retries spaced. Switching to another healthy server can save the night when one browser entry is melting.",
+            "Kicked-from-match messages may mean admin action, a network drop, a server restart or an anti-cheat check. Copy the exact text. Moderators and support channels can interpret a precise kick string; they cannot interpret “it kicked me.”",
+            "If kicks cluster whenever you fly or fight for a long session, also check thermals and network stability. A laptop that thermal-throttles and Wi-Fi that drops under load can look like a game-specific punishment when it is really a local reliability issue. Helicopter sessions are a common place players notice those drops.",
+            "If only one host rejects you while others work, the issue may be that server rather than broad WARDOGS error codes on your account.",
+            "Screenshot kick text even when you think you understand it; WARDOGS error codes threads are easier to solve with exact wording."
+          ],
+          "usedSourceIds": [
+            "steam_1867240"
+          ]
+        },
+        {
+          "heading": "Safe Troubleshooting Checklist",
+          "paragraphs": [
+            "Safe list: check status, wait/retry, restart game, restart Steam, reboot the PC, verify files, test wired networking, temporarily remove overlays for isolation, and reinstall only as a last resort. Document what changed after each step so you do not lose the fix.",
+            "Unsafe list: permanently turning off antivirus, downloading cracks or replacement anti-cheat files, using random “error fixer” executables from unverified sites, or sharing account credentials with strangers who promise a queue bypass. Those paths create worse problems than 1147405308.",
+            "If your account authenticates on one network path but not another, the clue is local routing or filtering. Try a wired connection or a temporary hotspot test, then adjust router QoS or VPN experiments carefully. A VPN can help some networks and hurt others, so test both ways.",
+            "Teach newer players the safe order for WARDOGS error codes so they do not jump straight to reinstall every time auth hiccups.",
+            "Parents and shared-PC households should keep the WARDOGS error codes repair steps written down so every user applies the same safe order."
+          ],
+          "usedSourceIds": [
+            "steam_1867240"
+          ]
+        },
+        {
+          "heading": "When to Verify Files or Reinstall",
+          "paragraphs": [
+            "Verify integrity when launches fail after an update, when files are missing, or when authentication errors continue on a day when other players are online without issue. Steam will replace broken files while leaving your settings alone in most cases.",
+            "Reinstall when verification loops, when multiple repair attempts fail, or when you suspect manual file edits from an unsafe guide. Back up any notes about your keybinds and graphics preferences first so you can rebuild quickly.",
+            "After you are back in, take five minutes to confirm settings, helicopter binds and a quiet server join before entering a full contested match. Recovering from WARDOGS error codes only counts if the next session stays stable.",
+            "After a successful repair, join a low-pressure server first and confirm that WARDOGS error codes stay gone through one full map load.",
+            "Club Discord mods can help faster when you list the WARDOGS error codes you already tried to clear and the times they appeared."
+          ],
+          "usedSourceIds": [
+            "steam_1867240"
+          ]
+        }
+      ],
+      "faq": [
+        {
+          "question": "What does WARDOGS error 1147405308 mean?",
+          "answer": "It is associated with failing to authenticate with online services and often shows up during queue or auth overload. Check status, wait, restart Steam and the game, then verify files if needed."
+        },
+        {
+          "question": "How do I fix WARDOGS authentication failed messages?",
+          "answer": "Confirm there is no outage, retry after a short wait, restart the game and Steam, and only then move on to network tests or file verification for stubborn WARDOGS error codes."
+        },
+        {
+          "question": "Should I disable antivirus to fix WARDOGS error codes?",
+          "answer": "Do not permanently disable antivirus. Temporary isolation for testing is different from leaving your PC unprotected, and unofficial bypass tools are never recommended."
+        },
+        {
+          "question": "Why do I get kicked from WARDOGS matches?",
+          "answer": "Kicks can come from admins, disconnects, server restarts or anti-cheat checks. Save the exact message and correlate it with server status before changing system settings."
+        },
+        {
+          "question": "When should I reinstall WARDOGS?",
+          "answer": "Reinstall only after status checks, restarts and file verification fail on a day when services otherwise look healthy."
+        }
+      ]
+    }
+  ]
+}

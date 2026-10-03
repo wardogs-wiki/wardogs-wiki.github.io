@@ -1,0 +1,43 @@
+{
+  "projectId": "site_58236d6e-2ada-4a59-a5b8-44ee6f22965b",
+  "gameName": "WARDOGS",
+  "generatedAt": "2026-09-21T02:38:18.776Z",
+  "templateVersion": "game-seo-master-template-v1",
+  "readyForLaunch": true,
+  "filesGenerated": [
+    "content/generated/site.json",
+    "content/generated/home.json",
+    "content/generated/pages.json",
+    "CODEX_BRIEF.md",
+    "GAME_FACT_PACK.json",
+    "SOURCE_PACK.json",
+    "CONTENT_PACK.json",
+    "SITE_PLAN.json",
+    "SEO_PLAN.json",
+    "THEME.json"
+  ],
+  "projectContextVersion": "mvp1-v3-manual-launch-pack",
+  "contentMode": "manual_launch_pack",
+  "seoMode": "manual_launch_pack",
+  "factPackSource": "steam_official_plus_community_cross_check",
+  "qaVersion": "v3.0",
+  "launchEligible": true,
+  "launchLabel": "ready_for_publish",
+  "hardFailCount": 0,
+  "warningCount": 0,
+  "buildReady": true,
+  "publishReady": true,
+  "projectStatus": "ready_for_publish",
+  "launchReasons": [
+    "Site URL set to https://wardogs-wiki.github.io with readyForLaunch=true"
+  ],
+  "audit": {
+    "contentMode": "manual_launch_pack",
+    "seoMode": "manual_launch_pack",
+    "factPackSource": "steam_official_plus_community_cross_check",
+    "qaVersion": "v3.0",
+    "themeMode": "preset",
+    "buildMode": "manual",
+    "pageCount": 9
+  }
+}
